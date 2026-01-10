@@ -122,7 +122,7 @@ sections:
         - name: phone
           label: Phone Number
           hideLabel: true
-          placeholder: Address
+          placeholder: Phone Number
           isRequired: true
           width: 1/2
           type: TextFormControl
