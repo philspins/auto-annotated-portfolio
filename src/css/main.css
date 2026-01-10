@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,400;0,500;1,400;1,500&family=DM+Mono:ital,wght@0,400;0,500;1,400;1,500&display=swap') layer(base);
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,400;0,500;1,400;1,500&family=DM+Mono:ital,wght@0,400;0,500;1,400;1,500&display=swap')
+layer(base);
 
 @import 'tailwindcss';
 @plugin '@tailwindcss/typography';
@@ -7,7 +8,7 @@
     --font-body: var(--theme-font-body, monospace);
     --background-color-main: var(--theme-dark);
     --background-color-inverse: var(--theme-on-dark);
-    --text-color-main: var(--theme-on-light);
+    --text-color-main: var(--theme-on-dark);
     --text-color-inverse: var(--theme-dark);
     --container-8xl: 96rem;
     --spacing-icon: 1em;
@@ -17,12 +18,10 @@
     html {
         @apply antialiased font-body;
     }
-
     body {
         @apply flex flex-col min-h-screen;
     }
-
-    body>div {
+    body > div {
         @apply flex flex-col grow;
     }
 
@@ -55,7 +54,6 @@
             6px 6px,
             6px 6px;
     }
-
     option {
         color: initial;
     }
@@ -67,28 +65,24 @@
         --text-color-main: var(--theme-on-light);
         --text-color-inverse: var(--theme-light);
     }
-
     :where([data-theme='colors-c']) {
         --background-color-main: var(--theme-primary);
         --background-color-inverse: var(--theme-on-primary);
         --text-color-main: var(--theme-on-primary);
         --text-color-inverse: var(--theme-primary);
     }
-
     :where([data-theme='colors-d']) {
         --background-color-main: var(--theme-secondary);
         --background-color-inverse: var(--theme-on-secondary);
         --text-color-main: var(--theme-on-secondary);
         --text-color-inverse: var(--theme-secondary);
     }
-
     :where([data-theme='colors-e']) {
         --background-color-main: var(--theme-complementary);
         --background-color-inverse: var(--theme-on-complementary);
         --text-color-main: var(--theme-on-complementary);
         --text-color-inverse: var(--theme-complementary);
     }
-
     :where([data-theme^='colors-']):not([data-theme='colors-f']) {
         @apply bg-main text-main;
     }
@@ -97,11 +91,9 @@
     form data:has([class*='sm:col-span-2']) {
         @apply sm:col-span-2;
     }
-
     nav data:has([class*='sm:col-start-2']) {
         @apply sm:col-start-2;
     }
-
     li data:has([class*='link-fill']) {
         @apply inline-flex;
     }
@@ -154,9 +146,11 @@
 
 @utility link-fill {
     @apply transition-all text-main;
-    background-image: linear-gradient(to bottom,
-            var(--background-color-inverse) 0%,
-            var(--background-color-inverse) 100%);
+    background-image: linear-gradient(
+        to bottom,
+        var(--background-color-inverse) 0%,
+        var(--background-color-inverse) 100%
+    );
     background-size: 100% 0%;
     background-repeat: no-repeat;
 
