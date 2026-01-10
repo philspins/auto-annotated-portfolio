@@ -93,7 +93,7 @@ sections:
   - type: ContactSection
     colors: colors-f
     backgroundSize: full
-    title: Got an interesting project? Tell me more...💬
+    title: Wanna work on something fun with me? hit me up!💬
     form:
       type: FormBlock
       elementId: sign-up-form
