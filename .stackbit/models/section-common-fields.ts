@@ -42,7 +42,7 @@ export const colorFields: Field[] = [
                 value: 'colors-b',
                 textColor: '$onLight',
                 backgroundColor: '$light',
-                borderColor: '#050806'
+                borderColor: '#ececec'
             },
             {
                 label: 'Colors C',
