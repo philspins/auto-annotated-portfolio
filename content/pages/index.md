@@ -123,7 +123,7 @@ sections:
           label: Phone Number
           hideLabel: true
           placeholder: Phone Number
-          isRequired: true
+          isRequired: false
           width: 1/2
           type: TextFormControl
         - name: updatesConsent
