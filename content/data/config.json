@@ -92,7 +92,7 @@
             "address": "London, Ontario, Canada",
             "addressAltText": "My address"
         },
-        "copyrightText": "Powered by [Netlify](https://www.netlify.com/)",
+        "copyrightText": "Copyright © Phil Craig 2026\n",
         "styles": {
             "self": {
                 "width": "narrow",
