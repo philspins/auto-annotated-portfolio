@@ -93,7 +93,7 @@ sections:
   - type: ContactSection
     colors: colors-f
     backgroundSize: full
-    title: Wanna work on something fun with me? Hit me up!
+    title: 'Wanna work on something fun with me? Hit me up! :kissing_heart: '
     form:
       type: FormBlock
       elementId: contact-form
