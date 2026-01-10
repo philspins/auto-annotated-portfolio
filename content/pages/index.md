@@ -96,7 +96,7 @@ sections:
     title: Wanna work on something fun with me? Hit me up!💬
     form:
       type: FormBlock
-      elementId: sign-up-form
+      elementId: contact-form
       fields:
         - name: firstName
           label: First Name
