@@ -12,7 +12,7 @@ backgroundImage:
 sections:
   - elementId: ''
     colors: colors-a
-    backgroundSize: full
+    backgroundSize: inset
     title: I’m a developer, MAKER, dreamer
     subtitle: >-
       This is my info—I’m sharing it all this with ya’ll to impress you with all
