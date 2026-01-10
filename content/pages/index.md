@@ -1,10 +1,10 @@
 ---
 type: PageLayout
 title: Home
-colors: colors-a
+colors: colors-b
 backgroundImage:
   type: BackgroundImage
-  url: /images/bg1.jpg
+  url: /images/image.jpg
   backgroundSize: cover
   backgroundPosition: center
   backgroundRepeat: no-repeat
@@ -13,9 +13,7 @@ sections:
   - elementId: ''
     colors: colors-f
     backgroundSize: full
-    title: >-
-      I’m a developer, digital artist, consultant and a bunch of other
-      impressive titles and buzz words.
+    title: I’m a developer, maker, dreamer...
     subtitle: >-
       This is my info—I’m sharing it all this with ya’ll to impress you with all
       the hard work I’ve done in the past few years. Once you’re impressed, you
@@ -36,6 +34,7 @@ sections:
           - pr-4
         flexDirection: row-reverse
         textAlign: left
+        borderColor: border-(--theme-dark)
     type: HeroSection
     actions: []
   - colors: colors-f
@@ -95,10 +94,10 @@ sections:
   - type: ContactSection
     colors: colors-f
     backgroundSize: full
-    title: "Got an interesting project? Tell me more...\U0001F4AC"
+    title: Wanna work on something fun with me? Hit me up! 😘
     form:
       type: FormBlock
-      elementId: sign-up-form
+      elementId: contact-form
       fields:
         - name: firstName
           label: First Name
@@ -121,19 +120,14 @@ sections:
           isRequired: true
           width: 1/2
           type: EmailFormControl
-        - name: address
-          label: Address
+        - name: phone
+          label: Phone Number
           hideLabel: true
-          placeholder: Address
-          isRequired: true
+          placeholder: Phone Number
+          isRequired: false
           width: 1/2
           type: TextFormControl
-        - name: updatesConsent
-          label: Sign me up to recieve updates
-          isRequired: false
-          width: full
-          type: CheckboxFormControl
-      submitLabel: "Submit \U0001F680"
+      submitLabel: Submit 🚀
       styles:
         self:
           textAlign: center
