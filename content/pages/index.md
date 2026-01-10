@@ -120,7 +120,7 @@ sections:
           width: 1/2
           type: EmailFormControl
         - name: address
-          label: Address
+          label: Phone Number
           hideLabel: true
           placeholder: Address
           isRequired: true
