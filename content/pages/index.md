@@ -1,3 +1,3 @@
 ---
-colors: colors-b
+colors: colors-a
 ---
