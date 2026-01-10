@@ -92,7 +92,7 @@
             "address": "London, Ontario, Canada",
             "addressAltText": "My address"
         },
-        "copyrightText": "© Phil Craig 2026\n",
+        "copyrightText": "## © Phil Craig 2026\n\n",
         "styles": {
             "self": {
                 "width": "narrow",
