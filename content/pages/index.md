@@ -37,7 +37,7 @@ sections:
         borderColor: border-(--theme-dark)
     type: HeroSection
     actions: []
-  - colors: colors-b
+  - colors: colors-f
     type: FeaturedProjectsSection
     elementId: ''
     actions:
