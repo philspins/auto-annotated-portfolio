@@ -15,23 +15,7 @@ sections:
     backgroundSize: full
     title: I’m a developer, maker, dreamer...
     subtitle: >-
-      A lifelong maker with a passion for learning and building efficient, elegant solutions to complex problems.
-      <br />
-      Technical skills:<br />
-      - Architecting distributed systems using cloud technologies <br />
-      - Implementing CI/CD using Jenkins, GitLab and cloud solutions<br />
-      - Data modelling for SQL and NoSQL databases<br />
-      - RESTful and GraphQL API design<br />
-      - Experienced with Test Driven Development (TDD)<br />
-      - Hobby experience with embedded development<br />
-      - Ability to rapidly learn new concepts and technologies<br />
-      <br />
-      Leadership skills:<br />
-      - Experience managing and leading projects using Agile, Scrum and PMBOK methodologies<br />
-      - Experience conducting technical knowledge and coding interviews<br />
-      - Experience mentoring colleagues and interns<br />
-      - Experience working directly with customers and other stakeholders to define business requirements<br />
-      - Experience leading cross functional teams<br />
+      a lifelong maker with a passion for learning and building efficient, elegant solutions to complex problems
     styles:
       self:
         height: auto
