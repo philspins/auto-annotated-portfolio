@@ -19,6 +19,8 @@ sections:
       
       
       I knew from a very young age that I wanted to be a programmer. Before going to college I had grandiose visions of becoming a game developer. In high school I took all the computer classes I could - learned Turing, Java, HTML. In the early 2000s I attended Fanshawe College and completed their three year Computer Programmer Analyst program.
+
+      After graduating I wasn't so picky about wanting to get into game dev specifically - I just wanted a job to sustain myself.  I ended up working as a technical support agent at Teletech for a few months, providing support for Verizon DSL customers. I learned a great deal about troubleshooting and custom support skills there. These would prove to be vital throughout my career and in hindsight I'm very glad to have worked there.
     media:
       type: ImageBlock
       url: /images/phil_eiffel_tower.jpg
@@ -43,9 +45,7 @@ sections:
     colors: colors-f
     backgroundSize: full
     text: >+
-       After graduating I wasn't so picky about wanting to get into game dev specifically - I just wanted a job to sustain myself.  I ended up working as a technical support agent at Teletech for a few months, providing support for Verizon DSL customers. I learned a great deal about troubleshooting and custom support skills there. These would prove to be vital throughout my career and in hindsight I'm very glad to have worked there.
-        <br /><br />
-        While working at Teletech I interviewed tirelessly for software development jobs. Ultimately I ended up landing a job at the local defense contractor (General Dynamics Land Systems-Canada), working as a Systems Analyst in the Project Management Systems department. During my time at GDLS-C I created innovative software solutions to address the unique challenges they had, such as: <br />
+       While working at Teletech I interviewed tirelessly for software development jobs. Ultimately I ended up landing a job at the local defense contractor (General Dynamics Land Systems-Canada), working as a Systems Analyst in the Project Management Systems department. During my time at GDLS-C I created innovative software solutions to address the unique challenges they had, such as: <br />
         - Managing projects and calculating earned value <br />
         - Developing bids against government contracts <br />
         - Automating contract reviews and managing responses to common contract clauses <br />
