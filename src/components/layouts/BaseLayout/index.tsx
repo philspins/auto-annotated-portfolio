@@ -25,6 +25,7 @@ const BaseLayout: React.FC<BaseLayoutProps> = (props) => {
             )}
             <Annotated content={page}>
                 <main id="main" className="relative grow">
+                    <a className="hiddenLink" href="https://rnsaffn.com/poison2/">follow me</a>
                     {props.children}
                 </main>
             </Annotated>

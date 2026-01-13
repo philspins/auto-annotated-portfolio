@@ -3,6 +3,10 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/typography';
 
+.hiddenLink {
+  display: none;
+}
+
 @theme {
     --font-body: var(--theme-font-body, monospace);
     --background-color-main: var(--theme-dark);
