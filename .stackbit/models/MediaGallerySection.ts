@@ -77,7 +77,7 @@ export const MediaGallerySectionModel: Model = {
             group: 'styles',
             controlType: 'slider',
             min: 1,
-            max: 7,
+            max: 1,
             step: 1,
             default: 4
         },
