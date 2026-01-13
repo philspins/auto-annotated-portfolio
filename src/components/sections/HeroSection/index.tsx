@@ -61,7 +61,8 @@ export default function Component(props: HeroSection) {
                     <div
                         className={classNames('flex flex-1 w-full', {
                             'justify-center': sectionAlign === 'center',
-                            'justify-end': sectionAlign === 'right'
+                            'justify-end': sectionAlign === 'right',
+                            'align-items': 'flex-start'
                         })}
                     >
                         <HeroMedia media={media} />
