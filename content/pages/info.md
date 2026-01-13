@@ -16,7 +16,8 @@ sections:
     backgroundSize: full
     text: >+
       # Hi. I’m a developer. I grew up in the 80's using a TI-99/4A and playing Nintendo NES. In the 90's I got a Pentium 2 and tried to learn Basic.
-      <br /><br />
+      
+      
       I knew from a very young age that I wanted to be a programmer. Before going to college I had grandiose visions of becoming a game developer. In high school I took all the computer classes I could - learned Turing, Java, HTML. In the early 2000s I attended Fanshawe College and completed their three year Computer Programmer Analyst program. 
       <br /><br />
       After graduating I wasn't so picky about wanting to get into game dev specifically - I just wanted a job to sustain myself.  I ended up working as a technical support agent at Teletech for a few months, providing support for Verizon DSL customers. I learned a great deal about troubleshooting and custom support skills there. These would prove to be vital throughout my career and in hindsight I'm very glad to have worked there.
