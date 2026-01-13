@@ -88,6 +88,6 @@ function mapFlexDirectionStyles(flexDirection?: 'row' | 'row-reverse' | 'col' | 
         case 'col-reverse':
             return 'flex-col-reverse';
         default:
-            return 'flex-col lg:flex-row lg:items-center';
+            return 'flex-col lg:flex-row';
     }
 }
