@@ -18,9 +18,32 @@ sections:
       # Hi. I’m a developer. I grew up in the 80's using a TI-99/4A and playing Nintendo NES. In the 90's I got a Pentium 2 and tried to learn how to code using Basic.
       
       
-      I knew from a very young age that I wanted to be a programmer. Before going to college I had grandiose visions of becoming a game developer. In high school I took all the computer classes I could - learned Turing, Java, HTML. In the early 2000s I attended Fanshawe College and completed their three year Computer Programmer Analyst program. 
-      <br /><br />
-      After graduating I wasn't so picky about wanting to get into game dev specifically - I just wanted a job to sustain myself.  I ended up working as a technical support agent at Teletech for a few months, providing support for Verizon DSL customers. I learned a great deal about troubleshooting and custom support skills there. These would prove to be vital throughout my career and in hindsight I'm very glad to have worked there.
+      I knew from a very young age that I wanted to be a programmer. Before going to college I had grandiose visions of becoming a game developer. In high school I took all the computer classes I could - learned Turing, Java, HTML. In the early 2000s I attended Fanshawe College and completed their three year Computer Programmer Analyst program.
+    media:
+      type: ImageBlock
+      url: /images/phil_eiffel_tower.jpg
+      altText: Me at the Eiffel Tower
+    styles:
+      self:
+        height: auto
+        width: wide
+        margin:
+          - mt-0
+          - mb-0
+          - ml-0
+          - mr-0
+        padding:
+          - pt-16
+          - pb-12
+          - pl-4
+          - pr-4
+        textAlign: left
+  - elementId: ''
+    type: TextSection
+    colors: colors-f
+    backgroundSize: full
+    text: >+
+       After graduating I wasn't so picky about wanting to get into game dev specifically - I just wanted a job to sustain myself.  I ended up working as a technical support agent at Teletech for a few months, providing support for Verizon DSL customers. I learned a great deal about troubleshooting and custom support skills there. These would prove to be vital throughout my career and in hindsight I'm very glad to have worked there.
       <br /><br />
       While working at Teletech I interviewed tirelessly for software development jobs. Ultimately I ended up landing a job at the local defense contractor (General Dynamics Land Systems-Canada), working as a Systems Analyst in the Project Management Systems department. During my time at GDLS-C I created innovative software solutions to address the unique challenges they had, such as: <br />
       - Managing projects and calculating earned value <br />
@@ -46,26 +69,6 @@ sections:
       London had a local company which competed with Carfax, and in 2018 or 2019, it was acquired by Carfax and branded Carfax Canada. The previous company had a team of developers who worked on the Canada product, and when Carfax saw the pool of talent that was available in London it began hiring a new team of developers to support its US operations. This was the team that I joined. I led a team called SEO Tools who primarily managed a tool that enabled SEO analysts optimize organic search traffic for the public Carfax website. It accomplished this by crawling the Carfax website, scraping relevant div tags, and providing the analysts with a web interface that scored the layout based on a set of rules that they developed. The backend was written in Go, which was my first experience using that language, and I quickly fell in love with it. We also managed the infrastructure for the Carfax blog and other static content pages. I learned a lot about using Terraform to manage AWS resources during this time. I was also a key player in growing the team, interviewing countless candidates and helping to grow the size of the Carfax US team from 30 to 200 employees. Towards the end of my tenure I also led the backend effort to build the infrastructure and API for a new product called the Business Directory - a section of the public website where users can search for dealers or service shops that partner with Carfax and read verified reviews ("Yelp for the car industry").
       <br /><br />
       After a couple of years at Carfax I started to see the same management patterns that I saw at GDLS-C and GoodLife which led to me leaving them. I yearned to work someplace where I was surrounded by excellence. When the COVID-19 pandemic hit and everybody went remote, it opened up new possibilities for me. I had never been interested in moving to another city for work, but I had always wanted to work for a prestigious company such as Google. So I applied to Google, and was granted an interview. I didn't get an offer from them, but it gave me the itch to work on my skills and try again 12 months later. When my 12 month waiting period was up and I was eligible to apply again, I decided to cast a wider net to other big companies who had openings for remote positions - such as Amazon, Meta and Uber. I was recruited by EA, interviewed with them, and ended up declining an offer which felt like a lowball. A former collegue showed me some posting from Sailpoint - a company I had never heard of - so I started investigating them. It seemed like a good fit that checked off many of my boxes. So I applied, interviewed, and was offered a position that I accepted. I am still there today, working on a team developing core backend services supporting their flagline SaaS product Identity Security Cloud.
-      <br /><br />
-    media:
-      type: ImageBlock
-      url: /images/phil_eiffel_tower.jpg
-      altText: Me at the Eiffel Tower
-    styles:
-      self:
-        height: auto
-        width: wide
-        margin:
-          - mt-0
-          - mb-0
-          - ml-0
-          - mr-0
-        padding:
-          - pt-16
-          - pb-12
-          - pl-4
-          - pr-4
-        textAlign: left
   - type: MediaGallerySection
     colors: colors-f
     subtitle: 'I worked with these great companies:'

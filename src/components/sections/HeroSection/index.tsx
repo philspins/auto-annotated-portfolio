@@ -20,7 +20,7 @@ export default function Component(props: HeroSection) {
     const alignItems = styles.self?.alignItems ?? 'flex-start';
     return (
         <Section elementId={elementId} colors={colors} backgroundSize={backgroundSize} styles={styles.self}>
-            <div className={classNames('flex gap-8',
+            <div style={styles.self} className={classNames('flex gap-8',
                 mapFlexDirectionStyles(sectionFlexDirection),
                 mapStyles({ alignItems }))}>
                 <div className={classNames('flex-1 w-full', mapStyles({ textAlign: sectionAlign }))}>
