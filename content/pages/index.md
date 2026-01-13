@@ -15,23 +15,23 @@ sections:
     backgroundSize: full
     title: I’m a developer, maker, dreamer...
     subtitle: >-
-      A lifelong Maker with a passion for learning and building efficient, elegant solutions to complex problems.
-
-      Technical skills:
-      - Architecting distributed systems using cloud technologies 
-      - Implementing CI/CD using Jenkins, GitLab and cloud solutions
-      - Data modelling for SQL and NoSQL databases
-      - RESTful and GraphQL API design
-      - Experienced with Test Driven Development (TDD)
-      - Hobby experience with embedded development
-      - Ability to rapidly learn new concepts and technologies
-
-      Leadership skills:
-      - Experience managing and leading projects using Agile, Scrum and PMBOK methodologies
-      - Experience conducting technical knowledge and coding interviews
-      - Experience mentoring colleagues and interns
-      - Experience working directly with customers and other stakeholders to define business requirements
-      - Experience leading cross functional teams
+      A lifelong maker with a passion for learning and building efficient, elegant solutions to complex problems.
+      <br />
+      Technical skills:<br />
+      - Architecting distributed systems using cloud technologies <br />
+      - Implementing CI/CD using Jenkins, GitLab and cloud solutions<br />
+      - Data modelling for SQL and NoSQL databases<br />
+      - RESTful and GraphQL API design<br />
+      - Experienced with Test Driven Development (TDD)<br />
+      - Hobby experience with embedded development<br />
+      - Ability to rapidly learn new concepts and technologies<br />
+      <br />
+      Leadership skills:<br />
+      - Experience managing and leading projects using Agile, Scrum and PMBOK methodologies<br />
+      - Experience conducting technical knowledge and coding interviews<br />
+      - Experience mentoring colleagues and interns<br />
+      - Experience working directly with customers and other stakeholders to define business requirements<br />
+      - Experience leading cross functional teams<br />
     styles:
       self:
         height: auto
