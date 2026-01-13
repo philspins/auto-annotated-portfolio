@@ -105,7 +105,7 @@ export const HeroSectionModel: Model = {
                         {
                             value: 'border-(--theme-secondary)',
                             label: 'Secondary color',
-                            color: '$secondary'gn
+                            color: '$secondary'
                         },
                         {
                             value: 'border-(--theme-complementary)',
