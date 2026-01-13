@@ -14,8 +14,10 @@ sections:
     colors: colors-f
     backgroundSize: full
     text: >+
-      # Hey I’m a developer. I grew up in the 80s using a TI-99/4A and playing Nintendo NES. I know from a very young age that I wanted to be a programmer. Before going to college I had grandiose visions of becoming a game developer. 
+      # Hi. I’m a developer. I grew up in the 80's using a TI-99/4A and playing Nintendo NES. In the 90's I got a Pentium 2 and tried to learn Basic.'
       
+      I knew from a very young age that I wanted to be a programmer. Before going to college I had grandiose visions of becoming a game developer. In high school I took all the computer classes I could - learned Turing, Java, HTML.
+
       In the early 2000s I attended Fanshawe College and completed their three year Computer Programmer Analyst program.  During my time there I learned and adopted many skills, including: 
       - Design and development of N-Tier applications, using C++, Visual Basic, C#, XML, and the .NET framework
       - Database design/implementation, including stored procedure and TSQL development, using Oracle, SQL Server (2000 and 2005), and MS Access
