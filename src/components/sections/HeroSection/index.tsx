@@ -19,7 +19,9 @@ export default function Component(props: HeroSection) {
     const sectionAlign = styles.self?.textAlign ?? 'left';
     return (
         <Section elementId={elementId} colors={colors} backgroundSize={backgroundSize} styles={styles.self}>
-            <div className={classNames('flex gap-8', mapFlexDirectionStyles(sectionFlexDirection))}>
+            <div className={classNames('flex gap-8', mapFlexDirectionStyles(sectionFlexDirection), {
+                'align-items': 'flex-start'
+            })}>
                 <div className={classNames('flex-1 w-full', mapStyles({ textAlign: sectionAlign }))}>
                     {title && (
                         <AnnotatedField path=".title">
@@ -60,9 +62,7 @@ export default function Component(props: HeroSection) {
                 {media && (
                     <div
                         className={classNames('flex flex-1 w-full', {
-                            'justify-center': sectionAlign === 'center',
-                            'justify-end': sectionAlign === 'right',
-                            'align-items': 'flex-start'
+                            'justify-end': sectionAlign === 'right'
                         })}
                     >
                         <HeroMedia media={media} />
