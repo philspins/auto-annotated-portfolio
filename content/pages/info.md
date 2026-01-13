@@ -14,7 +14,7 @@ sections:
     colors: colors-f
     backgroundSize: full
     text: >+
-      # Hi. I’m a developer. I grew up in the 80's using a TI-99/4A and playing Nintendo NES. In the 90's I got a Pentium 2 and tried to learn Basic.'
+      # Hi. I’m a developer. I grew up in the 80's using a TI-99/4A and playing Nintendo NES. In the 90's I got a Pentium 2 and tried to learn Basic.
     media:
       type: ImageBlock
       url: /images/phil_eiffel_tower.jpg
@@ -51,17 +51,17 @@ sections:
     colors: colors-f
     backgroundSize: full
     text: >+
-      While working at Teletech I interviewed tirelessly for software development jobs. Ultimately I ended up landing a job at the local defense contractor (General Dynamics Land Systems-Canada), working as a Systems Analyst in the Project Management Systems department. During my time at GDLS-C I created innovative software solutions to address the unique challenges they had, such as: 
-      - Managing projects and calculating earned value
-      - Developing bids against government contracts
-      - Automating contract reviews and managing responses to common contract clauses
-      - Custom workflow tools
-      - Inventory management
-      - Headcount planning and time tracking
-      - Vehicle test kits
-      - Content and Knowledge Management systems
-      - Planning of efficient packaging for spare parts
-      - Integration with Oracle E-Business
+      While working at Teletech I interviewed tirelessly for software development jobs. Ultimately I ended up landing a job at the local defense contractor (General Dynamics Land Systems-Canada), working as a Systems Analyst in the Project Management Systems department. During my time at GDLS-C I created innovative software solutions to address the unique challenges they had, such as: <br />
+      - Managing projects and calculating earned value <br />
+      - Developing bids against government contracts <br />
+      - Automating contract reviews and managing responses to common contract clauses <br />
+      - Custom workflow tools <br />
+      - Inventory management <br />
+      - Headcount planning and time tracking <br />
+      - Vehicle test kits <br />
+      - Content and Knowledge Management systems <br />
+      - Planning of efficient packaging for spare parts <br />
+      - Integration with Oracle E-Business <br /> <br />
       I was able to develop a number of skills during my time there... ranging from analysis, development and testing to planning and managing projects of various sizes - some commanding multi-million dollar budgets. I had several lateral moves, and a couple of promotions during my time there, but I wasn't satisfied with the ability to further my technical skills - and I still hadn't obtained the title of "programmer" or "developer" which I so coveted. So, after about 11 years of service, I began to interview for new positions again.
     type: TextSection
   - elementId: ''
