@@ -25,7 +25,12 @@
                             "self": {
                                 "height": "auto",
                                 "width": "narrow",
-                                "padding": ["pt-12", "pb-36", "pl-4", "pr-4"],
+                                "padding": [
+                                    "pt-12",
+                                    "pb-36",
+                                    "pl-4",
+                                    "pr-4"
+                                ],
                                 "textAlign": "left"
                             }
                         }
@@ -38,7 +43,7 @@
             "thumbnail": "images/page-landing.png",
             "data": {
                 "title": "Landing",
-                "colors": "colors-a",
+                "colors": "colors-f",
                 "backgroundImage": {
                     "url": "/images/bg1.jpg",
                     "backgroundSize": "cover",
@@ -59,7 +64,12 @@
                             "self": {
                                 "height": "auto",
                                 "width": "wide",
-                                "padding": ["pt-36", "pb-48", "pl-4", "pr-4"],
+                                "padding": [
+                                    "pt-36",
+                                    "pb-48",
+                                    "pl-4",
+                                    "pr-4"
+                                ],
                                 "flexDirection": "row",
                                 "textAlign": "left"
                             }
@@ -91,7 +101,12 @@
                             "self": {
                                 "height": "auto",
                                 "width": "wide",
-                                "padding": ["pt-24", "pb-24", "pl-4", "pr-4"],
+                                "padding": [
+                                    "pt-24",
+                                    "pb-24",
+                                    "pl-4",
+                                    "pr-4"
+                                ],
                                 "textAlign": "left"
                             }
                         }
@@ -121,7 +136,12 @@
                             "self": {
                                 "height": "auto",
                                 "width": "narrow",
-                                "padding": ["pt-24", "pb-24", "pl-4", "pr-4"],
+                                "padding": [
+                                    "pt-24",
+                                    "pb-24",
+                                    "pl-4",
+                                    "pr-4"
+                                ],
                                 "textAlign": "left"
                             }
                         }
@@ -185,7 +205,12 @@
                             "self": {
                                 "height": "auto",
                                 "width": "narrow",
-                                "padding": ["pt-24", "pb-24", "pl-4", "pr-4"],
+                                "padding": [
+                                    "pt-24",
+                                    "pb-24",
+                                    "pl-4",
+                                    "pr-4"
+                                ],
                                 "flexDirection": "row",
                                 "textAlign": "left"
                             }
@@ -199,7 +224,7 @@
             "thumbnail": "images/page-info.png",
             "data": {
                 "title": "Info page",
-                "colors": "colors-a",
+                "colors": "colors-f",
                 "backgroundImage": {
                     "url": "/images/bg2.jpg",
                     "backgroundSize": "cover",
@@ -224,7 +249,12 @@
                             "self": {
                                 "height": "auto",
                                 "width": "wide",
-                                "padding": ["pt-36", "pb-48", "pl-4", "pr-4"],
+                                "padding": [
+                                    "pt-36",
+                                    "pb-48",
+                                    "pl-4",
+                                    "pr-4"
+                                ],
                                 "flexDirection": "row",
                                 "textAlign": "left"
                             }
@@ -235,7 +265,12 @@
                         "styles": {
                             "self": {
                                 "width": "wide",
-                                "padding": ["pt-12", "pb-12", "pl-0", "pr-0"],
+                                "padding": [
+                                    "pt-12",
+                                    "pb-12",
+                                    "pl-0",
+                                    "pr-0"
+                                ],
                                 "borderWidth": 1
                             }
                         }
@@ -281,7 +316,12 @@
                             "self": {
                                 "height": "auto",
                                 "width": "wide",
-                                "padding": ["pt-12", "pb-12", "pl-4", "pr-4"],
+                                "padding": [
+                                    "pt-12",
+                                    "pb-12",
+                                    "pl-4",
+                                    "pr-4"
+                                ],
                                 "textAlign": "center"
                             }
                         }
@@ -291,7 +331,12 @@
                         "styles": {
                             "self": {
                                 "width": "wide",
-                                "padding": ["pt-12", "pb-12", "pl-0", "pr-0"],
+                                "padding": [
+                                    "pt-12",
+                                    "pb-12",
+                                    "pl-0",
+                                    "pr-0"
+                                ],
                                 "borderWidth": 1
                             }
                         }
@@ -340,7 +385,12 @@
                         "styles": {
                             "self": {
                                 "width": "wide",
-                                "padding": ["pt-12", "pb-12", "pl-0", "pr-0"],
+                                "padding": [
+                                    "pt-12",
+                                    "pb-12",
+                                    "pl-0",
+                                    "pr-0"
+                                ],
                                 "borderWidth": 1
                             }
                         }
@@ -466,8 +516,18 @@
                             "self": {
                                 "height": "auto",
                                 "width": "wide",
-                                "margin": ["mt-0", "mb-0", "ml-0", "mr-0"],
-                                "padding": ["pt-28", "pb-36", "pl-4", "pr-4"],
+                                "margin": [
+                                    "mt-0",
+                                    "mb-0",
+                                    "ml-0",
+                                    "mr-0"
+                                ],
+                                "padding": [
+                                    "pt-28",
+                                    "pb-36",
+                                    "pl-4",
+                                    "pr-4"
+                                ],
                                 "textAlign": "center"
                             }
                         }
@@ -477,7 +537,12 @@
                         "styles": {
                             "self": {
                                 "width": "wide",
-                                "padding": ["pt-12", "pb-12", "pl-0", "pr-0"],
+                                "padding": [
+                                    "pt-12",
+                                    "pb-12",
+                                    "pl-0",
+                                    "pr-0"
+                                ],
                                 "borderWidth": 1
                             }
                         }
@@ -541,7 +606,12 @@
                             "self": {
                                 "height": "auto",
                                 "width": "narrow",
-                                "padding": ["pt-24", "pb-24", "pl-4", "pr-4"],
+                                "padding": [
+                                    "pt-24",
+                                    "pb-24",
+                                    "pl-4",
+                                    "pr-4"
+                                ],
                                 "flexDirection": "row",
                                 "textAlign": "left"
                             }

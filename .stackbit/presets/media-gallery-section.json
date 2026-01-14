@@ -5,7 +5,7 @@
             "label": "5 columns dark wide",
             "thumbnail": "images/media-gallery-dark-5-col.png",
             "data": {
-                "colors": "colors-a",
+                "colors": "colors-f",
                 "title": "Gallery",
                 "subtitle": "This is the subtitle",
                 "images": [
@@ -44,7 +44,12 @@
                     "self": {
                         "height": "auto",
                         "width": "wide",
-                        "padding": ["pt-12", "pb-12", "pl-4", "pr-4"],
+                        "padding": [
+                            "pt-12",
+                            "pb-12",
+                            "pl-4",
+                            "pr-4"
+                        ],
                         "textAlign": "center"
                     }
                 }
@@ -66,7 +71,12 @@
                     "self": {
                         "height": "auto",
                         "width": "full",
-                        "padding": ["pt-12", "pb-12", "pl-4", "pr-4"],
+                        "padding": [
+                            "pt-12",
+                            "pb-12",
+                            "pl-4",
+                            "pr-4"
+                        ],
                         "textAlign": "center"
                     }
                 }
@@ -76,7 +86,7 @@
             "label": "2 columns dark narrow",
             "thumbnail": "images/media-gallery-primary-2-col.png",
             "data": {
-                "colors": "colors-c",
+                "colors": "colors-f",
                 "title": "Gallery",
                 "subtitle": "This is the subtitle",
                 "columns": 2,
@@ -88,7 +98,12 @@
                     "self": {
                         "height": "auto",
                         "width": "narrow",
-                        "padding": ["pt-12", "pb-12", "pl-4", "pr-4"],
+                        "padding": [
+                            "pt-12",
+                            "pb-12",
+                            "pl-4",
+                            "pr-4"
+                        ],
                         "textAlign": "center"
                     }
                 }

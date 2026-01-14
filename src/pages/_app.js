@@ -11,7 +11,7 @@ export default function MyApp({ Component, pageProps }) {
 
     useEffect(() => {
         setIsMounted(true);
-        document.body.setAttribute('data-theme', page.colors || 'colors-a');
+        document.body.setAttribute('data-theme', page.colors || 'colors-f');
     }, [page.colors]);
 
     return (

@@ -26,7 +26,12 @@
                     "self": {
                         "height": "auto",
                         "width": "wide",
-                        "padding": ["pt-24", "pb-24", "pl-4", "pr-4"],
+                        "padding": [
+                            "pt-24",
+                            "pb-24",
+                            "pl-4",
+                            "pr-4"
+                        ],
                         "textAlign": "left"
                     }
                 }
@@ -57,7 +62,12 @@
                     "self": {
                         "height": "auto",
                         "width": "wide",
-                        "padding": ["pt-24", "pb-24", "pl-4", "pr-4"],
+                        "padding": [
+                            "pt-24",
+                            "pb-24",
+                            "pl-4",
+                            "pr-4"
+                        ],
                         "textAlign": "left"
                     }
                 }
@@ -88,7 +98,12 @@
                     "self": {
                         "height": "auto",
                         "width": "wide",
-                        "padding": ["pt-24", "pb-24", "pl-4", "pr-4"],
+                        "padding": [
+                            "pt-24",
+                            "pb-24",
+                            "pl-4",
+                            "pr-4"
+                        ],
                         "textAlign": "left"
                     }
                 }
@@ -98,7 +113,7 @@
             "label": "Featured posts secondary - list alt",
             "thumbnail": "images/posts-secondary-list-alt.png",
             "data": {
-                "colors": "colors-d",
+                "colors": "colors-f",
                 "variant": "variant-d",
                 "title": null,
                 "subtitle": "Posts",
@@ -119,7 +134,12 @@
                     "self": {
                         "height": "auto",
                         "width": "wide",
-                        "padding": ["pt-24", "pb-24", "pl-4", "pr-4"],
+                        "padding": [
+                            "pt-24",
+                            "pb-24",
+                            "pl-4",
+                            "pr-4"
+                        ],
                         "textAlign": "left"
                     }
                 }

@@ -1,7 +1,7 @@
 ---
 type: PostLayout
 title: The Great Unbundling
-colors: colors-a
+colors: colors-f
 backgroundImage:
   type: BackgroundImage
   url: /images/bg2.jpg
