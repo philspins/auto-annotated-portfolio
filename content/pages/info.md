@@ -108,7 +108,7 @@ sections:
         caption: GDLS-C logo
     spacing: 30
     columns: 1
-    aspectRatio: auto
+    aspectRatio: '16:9'
     showCaption: false
     enableHover: false
     styles:
