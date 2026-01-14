@@ -1,7 +1,7 @@
 ---
 type: ProjectFeedLayout
 title: Projects
-colors: colors-f
+colors: colors-b
 backgroundImage:
   type: BackgroundImage
   url: /images/image.jpg
@@ -47,7 +47,7 @@ topSections:
 bottomSections:
   - type: ContactSection
     backgroundSize: full
-    title: "Let’s talk... \U0001F4AC"
+    title: Let’s talk... 💬
     colors: colors-f
     form:
       type: FormBlock
@@ -86,7 +86,7 @@ bottomSections:
           isRequired: false
           width: full
           type: CheckboxFormControl
-      submitLabel: "Submit \U0001F680"
+      submitLabel: Submit 🚀
       styles:
         self:
           textAlign: center
