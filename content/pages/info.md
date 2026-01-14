@@ -1,7 +1,7 @@
 ---
 type: PageLayout
 title: About
-colors: colors-a
+colors: colors-b
 backgroundImage:
   type: BackgroundImage
   url: /images/image.jpg
@@ -11,18 +11,32 @@ backgroundImage:
   opacity: 75
 sections:
   - elementId: ''
+    type: HeroSection
     colors: colors-f
     backgroundSize: full
-    text: >+
-      # Hey I’m a developer. I’ve been born and raised in the world, and that’s
-      also where I’m based. I’m currently a free agent, ex-this, ex-that,
-      ex-super big name. When I’m not coding, writing or creating, I eat
-      cereals. I have a dog, check her out [@mygod](https://www.stackbit.com/).
+    text: >
+      # Hi. I’m a developer. I grew up in the 80's using a TI-99/4A and playing
+      Nintendo NES. In the 90's I got a Pentium 2 and tried to learn how to code
+      using Basic.
 
+
+      I knew from a very young age that I wanted to be a programmer. Before
+      going to college I had grandiose visions of becoming a game developer. In
+      high school I took all the computer classes I could - learned Turing,
+      Java, HTML. In the early 2000s I attended Fanshawe College and completed
+      their three year Computer Programmer Analyst program.
+
+      After graduating I wasn't so picky about wanting to get into game dev
+      specifically - I just wanted a job to sustain myself.  I ended up working
+      as a technical support agent at Teletech for a few months, providing
+      support for Verizon DSL customers. I learned a great deal about
+      troubleshooting and custom support skills there. These would prove to be
+      vital throughout my career and in hindsight I'm very glad to have worked
+      there.
     media:
       type: ImageBlock
-      url: /images/about.jpg
-      altText: Hero image
+      url: /images/phil_eiffel_tower.jpg
+      altText: Me at the Eiffel Tower
     styles:
       self:
         height: auto
@@ -38,45 +52,63 @@ sections:
           - pl-4
           - pr-4
         textAlign: left
-    type: HeroSection
-  - type: DividerSection
-    styles:
-      self:
-        width: wide
-        padding:
-          - pt-8
-          - pb-8
-          - pl-4
-          - pr-4
-        borderWidth: 1
-        borderStyle: solid
+  - elementId: ''
+    type: TextSection
+    colors: colors-f
+    backgroundSize: full
+    text: >
+      While working at Teletech I interviewed tirelessly for software
+      development jobs. Ultimately I ended up landing a job at the local defense
+      contractor (General Dynamics Land Systems-Canada), working as a Systems
+      Analyst in the Project Management Systems department. During my time at
+      GDLS-C I created innovative software solutions to address the unique
+      challenges they had, such as: <br />
+       - Managing projects and calculating earned value <br />
+       - Developing bids against government contracts <br />
+       - Automating contract reviews and managing responses to common contract clauses <br />
+       - Custom workflow tools <br />
+       - Inventory management <br />
+       - Headcount planning and time tracking <br />
+       - Vehicle test kits <br />
+       - Content and Knowledge Management systems <br />
+       - Planning of efficient packaging for spare parts <br />
+       - Integration with Oracle E-Business <br /> <br />
+       I was able to develop a number of skills during my time there... ranging from analysis, development and testing to planning and managing projects of various sizes - some commanding multi-million dollar budgets. I had several lateral moves, and a couple of promotions during my time there, but I wasn't satisfied with the ability to further my technical skills - and I still hadn't obtained the title of "programmer" or "developer" which I so coveted. So, after about 11 years of service, I began to interview for new positions again.
+       <br /><br />
+       My hunt for a developer title landed me at GoodLife Fitness - on paper, an unlikely candidate, but they fit many of my criteria: <br />
+       - they were a well established local company <br />
+       - they had a dedicated department to software development <br />
+       - they had an office with many amenities <br />
+       - the business outlook was promising with seemingly no limitations (in a world with an obesity epidemic it seemed to me they had a license to print money) <br />
+       - a lively culture and a team filled with individuals who I really enjoyed interviewing with <br />
+       I had a great time working at GoodLife, my first year there was a wirlwhind of learning new technologies (such as building in "the cloud"), making new friends who I still have to this day, and testing the limits of my abilities. We built APIs in C# which were hosted in Azure, built data pipelines using SSIS, and managed a complex data store which supported the commissions and compensation program for their sales team. After the first year some of the culture flaws begaun coming to light and many of the team members whom I enjoyed working with decided to move on. I had taken on a team lead position, which took me away from my passion of writing code, and began to feel dis-satisfied. I had taken a bit of a pay cut coming to GoodLife, with the hope that it would provide greater long-term happiness, and that happiness was proving to be short lived. One of my new developer friends recruited me to the next company - Carfax.
+       <br /><br />
+       London had a local company which competed with Carfax, and in 2018 or 2019, it was acquired by Carfax and branded Carfax Canada. The previous company had a team of developers who worked on the Canada product, and when Carfax saw the pool of talent that was available in London it began hiring a new team of developers to support its US operations. This was the team that I joined. I led a team called SEO Tools who primarily managed a tool that enabled SEO analysts optimize organic search traffic for the public Carfax website. It accomplished this by crawling the Carfax website, scraping relevant div tags, and providing the analysts with a web interface that scored the layout based on a set of rules that they developed. The backend was written in Go, which was my first experience using that language, and I quickly fell in love with it. We also managed the infrastructure for the Carfax blog and other static content pages. I learned a lot about using Terraform to manage AWS resources during this time. I was also a key player in growing the team, interviewing countless candidates and helping to grow the size of the Carfax US team from 30 to 200 employees. Towards the end of my tenure I also led the backend effort to build the infrastructure and API for a new product called the Business Directory - a section of the public website where users can search for dealers or service shops that partner with Carfax and read verified reviews ("Yelp for the car industry").
+       <br /><br />
+       After a couple of years at Carfax I started to see the same management patterns that I saw at GDLS-C and GoodLife which led to me leaving them. I yearned to work someplace where I was surrounded by excellence. When the COVID-19 pandemic hit and everybody went remote, it opened up new possibilities for me. I had never been interested in moving to another city for work, but I had always wanted to work for a prestigious company such as Google. So I applied to Google, and was granted an interview. I didn't get an offer from them, but it gave me the itch to work on my skills and try again 12 months later. When my 12 month waiting period was up and I was eligible to apply again, I decided to cast a wider net to other big companies who had openings for remote positions - such as Amazon, Meta and Uber. I was recruited by EA, interviewed with them, and ended up declining an offer which felt like a lowball. A former collegue showed me some posting from Sailpoint - a company I had never heard of - so I started investigating them. It seemed like a good fit that checked off many of my boxes. So I applied, interviewed, and was offered a position that I accepted. I am still there today, working on a team developing core backend services supporting their flagline SaaS product Identity Security Cloud.
   - type: MediaGallerySection
     colors: colors-f
-    subtitle: 'I worked with these folks:'
+    subtitle: 'I worked with these great companies:'
     images:
       - type: ImageBlock
-        url: /images/logo1.svg
-        altText: Logo one
-        caption: Logo one
+        url: /images/SailPoint-logo.svg
+        altText: Sailpoint logo
+        caption: Sailpoint logo
       - type: ImageBlock
-        url: /images/logo2.svg
-        altText: Logo two
-        caption: Logo two
+        url: /images/CARFAX_Logo.svg
+        altText: Carfax logo
+        caption: Carfax logo
       - type: ImageBlock
-        url: /images/logo3.svg
-        altText: Logo three
-        caption: Logo three
+        url: /images/GoodLife_Fitness_logo.svg
+        altText: GoodLife logo
+        caption: GoodLife logo
       - type: ImageBlock
-        url: /images/logo4.svg
-        altText: Logo four
-        caption: Logo four
-      - type: ImageBlock
-        url: /images/logo5.svg
-        altText: Logo five
-        caption: Logo five
-    spacing: 3
-    columns: 5
-    aspectRatio: auto
+        url: /images/GDLS-logo.png
+        altText: GDLS-C logo
+        caption: GDLS-C logo
+    spacing: 30
+    columns: 1
+    aspectRatio: ''
     showCaption: false
     enableHover: false
     styles:
@@ -108,7 +140,7 @@ sections:
         actions:
           - type: Link
             label: GitHub
-            url: 'https://github.com/'
+            url: https://github.com/philspins
         styles:
           self:
             textAlign: left
@@ -116,7 +148,7 @@ sections:
         actions:
           - type: Link
             label: Twitter
-            url: 'https://twitter.com/'
+            url: https://x.com/philviral
         styles:
           self:
             textAlign: left
@@ -124,15 +156,7 @@ sections:
         actions:
           - type: Link
             label: LinkedIn
-            url: 'https://www.linkedin.com/'
-        styles:
-          self:
-            textAlign: left
-      - type: FeaturedItem
-        actions:
-          - type: Link
-            label: CodePen
-            url: 'https://codepen.io/'
+            url: https://www.linkedin.com/in/philipjohnbasil/
         styles:
           self:
             textAlign: left
@@ -140,7 +164,7 @@ sections:
         actions:
           - type: Link
             label: Discord
-            url: 'https://discord.com/'
+            url: https://discord.gg/UB2JSdYQ
         styles:
           self:
             textAlign: left
@@ -148,7 +172,7 @@ sections:
         actions:
           - type: Link
             label: Instagram
-            url: 'https://www.instagram.com/'
+            url: https://www.instagram.com/accordianthief
         styles:
           self:
             textAlign: left
@@ -180,21 +204,47 @@ sections:
     subtitle: 'Skills:'
     items:
       - type: Label
-        label: 'WEB 1, 2, 3'
+        label: Architecting distributed systems using cloud technologies
       - type: Label
-        label: React
+        label: Implementing CI/CD using Jenkins, GitLab and cloud solutions
       - type: Label
-        label: Microsoft Office
+        label: Data modelling for SQL and NoSQL databases
       - type: Label
-        label: Next.js
+        label: RESTful and GraphQL API design
       - type: Label
-        label: Netlify
+        label: Test Driven Development (TDD)
       - type: Label
-        label: Pancakes
+        label: Object Oriented Design
+      - type: Label
+        label: Design Patterns
+      - type: Label
+        label: AWS
       - type: Label
         label: C++
       - type: Label
-        label: Swift
+        label: Go
+      - type: Label
+        label: Java
+      - type: Label
+        label: C#
+      - type: Label
+        label: Javascrpt
+      - type: Label
+        label: Python
+      - type: Label
+        label: Node.js
+      - type: Label
+        label: React
+      - type: Label
+        label: SQL
+      - type: Label
+        label: Go
+      - type: Label
+        label: Kubernetes
+      - type: Label
+        label: ArgoCD
+      - type: Label
+        label: Terraform
   - type: DividerSection
     styles:
       self:
@@ -211,7 +261,7 @@ sections:
     subtitle: 'Contact:'
     colors: colors-f
     text: |
-      [thisismyemail.@myemail.me](mailto:thisismyemail.@myemail.me)
+      [philly.craig@gmail.com](mailto:philly.craig@gmail.com)
   - type: DividerSection
     styles:
       self:
@@ -231,40 +281,36 @@ sections:
         text: |-
           **Current**
 
-          * freelance @freelance.me
+          * Staff Software Engineer @ SailPoint
 
-          **2018-2021**
+          **2019-2022**
 
-          * fullstack at this startup
+          * Software Engineer @ Carfax
 
-          **2015**
+          **2017-2019**
 
-          * senior front-end at this place
+          * Senior Software Developer @ GoodLife Fitness
 
-          **2013**
+          **2006-2017**
 
-          * intern developer at a big company
+          * Software Developer / Systems Analyst @ GDLS-C
 
-          **2011**
+          **2005-2006**
 
-          * flipping burgers
+          * Tech Support @ Teletech (Verizon)
         styles:
           self:
             textAlign: left
       - type: FeaturedItem
         subtitle: 'Education:'
         text: |-
-          **2015-2018**
+          **2002-2005**
 
-          * ba computer sciense at a semi fancy school
+          * Computer Programer Analyst at Fanshawe College
 
-          **2014**
+          **2002**
 
-          * react certificate somewhere
-
-          **2011**
-
-          * my highschool
+          * North Middlesex District High School
         styles:
           self:
             textAlign: left
@@ -294,7 +340,7 @@ sections:
         borderStyle: solid
   - type: ContactSection
     backgroundSize: full
-    title: "Let’s talk... \U0001F4AC"
+    title: Let’s talk... 💬
     colors: colors-f
     form:
       type: FormBlock
@@ -328,12 +374,7 @@ sections:
           isRequired: true
           width: full
           type: TextareaFormControl
-        - name: updatesConsent
-          label: Sign me up to recieve my words
-          isRequired: false
-          width: full
-          type: CheckboxFormControl
-      submitLabel: "Submit \U0001F680"
+      submitLabel: Submit 🚀
       styles:
         self:
           textAlign: center
