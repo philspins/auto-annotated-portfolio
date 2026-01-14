@@ -106,7 +106,7 @@ sections:
         url: /images/GDLS-logo.png
         altText: GDLS-C logo
         caption: GDLS-C logo
-    spacing: 3
+    spacing: 30
     columns: 1
     aspectRatio: auto
     showCaption: false
