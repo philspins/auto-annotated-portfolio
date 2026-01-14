@@ -1,7 +1,7 @@
 ---
 type: PageLayout
 title: Home
-colors: colors-f
+colors: colors-b
 backgroundImage:
   type: BackgroundImage
   url: /images/image.jpg
@@ -15,7 +15,8 @@ sections:
     backgroundSize: full
     title: I’m a developer, maker, dreamer...
     subtitle: >-
-      a lifelong maker with a passion for learning and building efficient, elegant solutions to complex problems
+      a lifelong maker with a passion for learning and building efficient,
+      elegant solutions to complex problems
     styles:
       self:
         height: auto
