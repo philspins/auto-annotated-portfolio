@@ -103,7 +103,7 @@ sections:
         altText: GoodLife logo
         caption: GoodLife logo
       - type: ImageBlock
-        url: /images/GDLS-logo.png
+        url: /images/General_Dynamics_logo.svg
         altText: GDLS-C logo
         caption: GDLS-C logo
     spacing: 30
