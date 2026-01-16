@@ -2,7 +2,7 @@
 type: ProjectLayout
 title: Monocai Dark VS Code / Cursor Theme
 colors: colors-f
-date: '2021-10-15'
+date: '2026-01-16'
 client: Awesome client
 description: >-
   My very first theme.  After using something similar to this in IntelliJ for
