@@ -11,7 +11,7 @@ description: >-
   little bit of hand massaging.
 featuredImage:
   type: ImageBlock
-  url: /images/bg1.jpg
+  url: /images/preview.png
   altText: Project thumbnail image
 media:
   type: ImageBlock
