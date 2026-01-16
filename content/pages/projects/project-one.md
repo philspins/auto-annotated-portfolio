@@ -5,9 +5,10 @@ colors: colors-f
 date: '2021-10-15'
 client: Awesome client
 description: >-
-  It’s hard to imagine that I’ve that I wrote all this code by myself, probably
-  because I worked with an entire team :) but they definitely followed my lead
-  most of the time.
+  My very first theme.  After using something similar to this in IntelliJ for
+  years, I had a hard time adopting Cursor for my Java projects. I used Cursor
+  to convert my IntelliJ theme and voila! It was mostly complete, just needed a
+  little bit of hand massaging.
 featuredImage:
   type: ImageBlock
   url: /images/bg1.jpg
