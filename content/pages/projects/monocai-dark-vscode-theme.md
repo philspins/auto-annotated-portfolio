@@ -3,9 +3,7 @@ type: ProjectLayout
 title: Monocai Dark Theme (for VS Code & Cursor)
 date: '2026-01-16'
 client: Myself
-description: >-
-  Nunc rutrum felis dui, ut consequat sapien scelerisque vel. Integer
-  condimentum dignissim justo vel faucibus.
+description: My very first theme
 featuredImage:
   type: ImageBlock
   url: /images/monocai-theme-preview.png
