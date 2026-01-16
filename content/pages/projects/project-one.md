@@ -11,7 +11,7 @@ description: >-
   little bit of hand massaging.
 featuredImage:
   type: ImageBlock
-  url: /images/preview.png
+  url: /images/monocai-theme-preview.png
   altText: Project thumbnail image
 media:
   type: ImageBlock
