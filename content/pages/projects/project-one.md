@@ -1,6 +1,6 @@
 ---
 type: ProjectLayout
-title: Monocai Dark VS Code / Cursor Theme
+title: Monocai Dark Theme (for VS Code & Cursor)
 colors: colors-f
 date: '2026-01-16'
 client: Myself
