@@ -3,7 +3,7 @@ type: ProjectLayout
 title: Monocai Dark VS Code / Cursor Theme
 colors: colors-f
 date: '2026-01-16'
-client: Awesome client
+client: Myself
 description: >-
   My very first theme.  After using something similar to this in IntelliJ for
   years, I had a hard time adopting Cursor for my Java projects. I used Cursor
