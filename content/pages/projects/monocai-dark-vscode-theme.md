@@ -3,7 +3,7 @@ type: ProjectLayout
 title: Monocai Dark Theme (for VS Code & Cursor)
 date: '2026-01-16'
 client: Myself
-description: My very first theme
+description: My very own theme
 featuredImage:
   type: ImageBlock
   url: /images/monocai-theme-preview.png
