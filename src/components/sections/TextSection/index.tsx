@@ -23,7 +23,7 @@ function TextOneCol(props) {
     return (
         <div className={classNames(mapStyles({ textAlign: align }))}>
             {title && <h2 className="text-4xl sm:text-5xl">{title}</h2>}
-            {subtitle && <p className={classNames('text-xl sm:text-2xl', { 'mt-2': title })}>{subtitle}</p>}
+            {/* {subtitle && <p className={classNames('text-xl sm:text-2xl', { 'mt-2': title })}>{subtitle}</p>} */}
             {text && (
                 <Markdown
                     options={{ forceBlock: true, forceWrapper: true }}

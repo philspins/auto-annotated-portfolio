@@ -4,7 +4,7 @@ title: Projects
 colors: colors-b
 backgroundImage:
   type: BackgroundImage
-  url: /images/bg.jpg
+  url: /images/clouds.svg
   backgroundSize: cover
   backgroundPosition: center
   backgroundRepeat: no-repeat
@@ -16,7 +16,7 @@ projectFeed:
   showDescription: true
   showReadMoreLink: true
   showFeaturedImage: true
-  variant: variant-a
+  variant: variant-c
   styles:
     self:
       width: narrow
@@ -25,6 +25,8 @@ projectFeed:
         - pl-4
         - pr-4
         - pb-12
+  title: My preciouses...
+  subtitle: don't judge
 topSections:
   - type: HeroSection
     title: Projects

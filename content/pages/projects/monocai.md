@@ -9,7 +9,7 @@ featuredImage:
   url: /images/monocai-theme-preview.png
   altText: Project thumbnail image
   caption: ''
-  elementId: ''
+  elementId: 'monocai-dark'
 media:
   type: ImageBlock
   url: /images/monocai-theme-preview.png
