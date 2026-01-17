@@ -25,7 +25,12 @@
                     "self": {
                         "height": "auto",
                         "width": "wide",
-                        "padding": ["pt-24", "pb-24", "pl-4", "pr-4"],
+                        "padding": [
+                            "pt-24",
+                            "pb-24",
+                            "pl-4",
+                            "pr-4"
+                        ],
                         "textAlign": "left"
                     }
                 }
@@ -35,7 +40,7 @@
             "label": "Recent projects secondary - 3 columns",
             "thumbnail": "images/projects-secondary-3-col.png",
             "data": {
-                "colors": "colors-d",
+                "colors": "colors-f",
                 "variant": "variant-b",
                 "title": null,
                 "subtitle": "Projects",
@@ -55,7 +60,12 @@
                     "self": {
                         "height": "auto",
                         "width": "wide",
-                        "padding": ["pt-24", "pb-24", "pl-4", "pr-4"],
+                        "padding": [
+                            "pt-24",
+                            "pb-24",
+                            "pl-4",
+                            "pr-4"
+                        ],
                         "textAlign": "left"
                     }
                 }

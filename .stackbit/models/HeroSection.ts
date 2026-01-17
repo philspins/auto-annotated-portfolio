@@ -113,7 +113,8 @@ export const HeroSectionModel: Model = {
                             color: '$complementary'
                         }
                     ],
-                    textAlign: ['left', 'center', 'right']
+                    textAlign: ['left', 'center', 'right'],
+                    alignItems: ['flex-start', 'center', 'flex-end']
                 }
             },
             default: {
@@ -127,7 +128,8 @@ export const HeroSectionModel: Model = {
                     borderWidth: 0,
                     borderStyle: 'none',
                     borderColor: 'border-(--theme-dark)',
-                    textAlign: 'left'
+                    textAlign: 'left',
+                    alignItems: 'flex-start'
                 }
             }
         }

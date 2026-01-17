@@ -1,26 +1,26 @@
 ---
 type: ProjectLayout
-title: Monocai Dark Theme (for VS Code & Cursor)
+title: Monocai Dark Theme
 date: '2026-01-16'
-client: Myself
-description: My very own theme
+client: Me & The World
+description: My very own theme for VS Code & Cursor
 featuredImage:
   type: ImageBlock
   url: /images/monocai-theme-preview.png
   altText: Project thumbnail image
   caption: ''
-  elementId: ''
+  elementId: 'monocai-dark'
 media:
   type: ImageBlock
   url: /images/monocai-theme-preview.png
-  altText: Project image
-  caption: Caption of the image
+  altText: Theme preview
+  caption: Caption for the greatest dark theme ever
   elementId: ''
 addTitleSuffix: true
 colors: colors-b
 backgroundImage:
   type: BackgroundImage
-  url: /images/image.jpg
+  url: /images/clouds.svg
   backgroundSize: cover
   backgroundPosition: center
   backgroundRepeat: no-repeat

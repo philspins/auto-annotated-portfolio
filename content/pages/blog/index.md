@@ -1,10 +1,10 @@
 ---
 type: PostFeedLayout
 title: Blog
-colors: colors-a
+colors: colors-b
 backgroundImage:
   type: BackgroundImage
-  url: /images/image.jpg
+  url: /images/clouds.svg
   backgroundSize: cover
   backgroundPosition: center
   backgroundRepeat: no-repeat

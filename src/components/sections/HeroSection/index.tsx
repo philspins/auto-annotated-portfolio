@@ -17,9 +17,12 @@ export default function Component(props: HeroSection) {
     const { elementId, colors, backgroundSize, title, subtitle, text, media, actions = [], styles = {} } = props;
     const sectionFlexDirection = styles.self?.flexDirection ?? 'row';
     const sectionAlign = styles.self?.textAlign ?? 'left';
+    const alignItems = styles.self?.alignItems ?? 'flex-start';
     return (
         <Section elementId={elementId} colors={colors} backgroundSize={backgroundSize} styles={styles.self}>
-            <div className={classNames('flex gap-8', mapFlexDirectionStyles(sectionFlexDirection))}>
+            <div style={styles.self} className={classNames('flex gap-8',
+                mapFlexDirectionStyles(sectionFlexDirection),
+                mapStyles({ alignItems }))}>
                 <div className={classNames('flex-1 w-full', mapStyles({ textAlign: sectionAlign }))}>
                     {title && (
                         <AnnotatedField path=".title">
@@ -60,15 +63,15 @@ export default function Component(props: HeroSection) {
                 {media && (
                     <div
                         className={classNames('flex flex-1 w-full', {
-                            'justify-center': sectionAlign === 'center',
-                            'justify-end': sectionAlign === 'right'
+                            'justify-end': sectionAlign === 'right',
+                            alignItems: 'flex-start'
                         })}
                     >
                         <HeroMedia media={media} />
                     </div>
                 )}
             </div>
-        </Section>
+        </Section >
     );
 }
 
@@ -85,6 +88,6 @@ function mapFlexDirectionStyles(flexDirection?: 'row' | 'row-reverse' | 'col' | 
         case 'col-reverse':
             return 'flex-col-reverse';
         default:
-            return 'flex-col lg:flex-row lg:items-center';
+            return 'flex-col lg:flex-row';
     }
 }

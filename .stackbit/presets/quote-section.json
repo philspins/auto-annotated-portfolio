@@ -10,7 +10,12 @@
                     "self": {
                         "height": "auto",
                         "width": "wide",
-                        "padding": ["pt-36", "pb-36", "pl-4", "pr-4"],
+                        "padding": [
+                            "pt-36",
+                            "pb-36",
+                            "pl-4",
+                            "pr-4"
+                        ],
                         "textAlign": "left"
                     }
                 }
@@ -25,7 +30,12 @@
                     "self": {
                         "height": "auto",
                         "width": "wide",
-                        "padding": ["pt-36", "pb-36", "pl-4", "pr-4"],
+                        "padding": [
+                            "pt-36",
+                            "pb-36",
+                            "pl-4",
+                            "pr-4"
+                        ],
                         "textAlign": "center"
                     }
                 }
@@ -35,12 +45,17 @@
             "label": "Quote secondary, text left",
             "thumbnail": "images/quote-secondary-left.png",
             "data": {
-                "colors": "colors-d",
+                "colors": "colors-f",
                 "styles": {
                     "self": {
                         "height": "auto",
                         "width": "wide",
-                        "padding": ["pt-36", "pb-36", "pl-4", "pr-4"],
+                        "padding": [
+                            "pt-36",
+                            "pb-36",
+                            "pl-4",
+                            "pr-4"
+                        ],
                         "textAlign": "left"
                     }
                 }

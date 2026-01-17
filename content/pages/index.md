@@ -4,7 +4,7 @@ title: Home
 colors: colors-b
 backgroundImage:
   type: BackgroundImage
-  url: /images/image.jpg
+  url: /images/clouds.svg
   backgroundSize: cover
   backgroundPosition: center
   backgroundRepeat: no-repeat
@@ -14,9 +14,7 @@ sections:
     colors: colors-f
     backgroundSize: full
     title: I’m a developer, maker, dreamer...
-    subtitle: >-
-      a lifelong maker with a passion for learning and building efficient,
-      elegant solutions to complex problems
+    subtitle: a lifelong maker with a passion for learning and building
     styles:
       self:
         height: auto
@@ -49,7 +47,7 @@ sections:
     showReadMoreLink: true
     variant: variant-b
     projects:
-      - content/pages/projects/monocai-dark-vscode-theme.md
+      - content/pages/projects/monocai.md
     styles:
       self:
         height: auto

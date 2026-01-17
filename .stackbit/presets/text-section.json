@@ -12,7 +12,12 @@
                     "self": {
                         "height": "auto",
                         "width": "narrow",
-                        "padding": ["pt-28", "pb-28", "pl-4", "pr-4"],
+                        "padding": [
+                            "pt-28",
+                            "pb-28",
+                            "pl-4",
+                            "pr-4"
+                        ],
                         "textAlign": "left"
                     }
                 }
@@ -29,7 +34,12 @@
                     "self": {
                         "height": "auto",
                         "width": "narrow",
-                        "padding": ["pt-28", "pb-28", "pl-4", "pr-4"],
+                        "padding": [
+                            "pt-28",
+                            "pb-28",
+                            "pl-4",
+                            "pr-4"
+                        ],
                         "textAlign": "center"
                     }
                 }
@@ -39,7 +49,7 @@
             "label": "Text secondary left",
             "thumbnail": "images/text-secondary-left.png",
             "data": {
-                "colors": "colors-d",
+                "colors": "colors-f",
                 "variant": "variant-b",
                 "title": "The Section Title",
                 "subtitle": "The section subtitle",
@@ -47,7 +57,12 @@
                     "self": {
                         "height": "auto",
                         "width": "wide",
-                        "padding": ["pt-28", "pb-28", "pl-4", "pr-4"],
+                        "padding": [
+                            "pt-28",
+                            "pb-28",
+                            "pl-4",
+                            "pr-4"
+                        ],
                         "textAlign": "left"
                     }
                 }
