@@ -20,7 +20,7 @@ addTitleSuffix: true
 colors: colors-b
 backgroundImage:
   type: BackgroundImage
-  url: /images/bg.jpg
+  url: /images/clouds.svg
   backgroundSize: cover
   backgroundPosition: center
   backgroundRepeat: no-repeat
