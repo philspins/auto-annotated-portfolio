@@ -26,3 +26,4 @@ backgroundImage:
   backgroundRepeat: no-repeat
   opacity: 100
 ---
+My very first theme. After using something similar to this in IntelliJ for years, I had a hard time adopting Cursor for my Java projects. I used Cursor to convert my IntelliJ theme and voila! It was mostly complete, just needed a little bit of hand massaging.
