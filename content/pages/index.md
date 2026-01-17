@@ -49,7 +49,7 @@ sections:
     showReadMoreLink: true
     variant: variant-b
     projects:
-      - content/pages/projects/project-one.md
+      - content/pages/projects/monocai-dark-vscode-theme.md
     styles:
       self:
         height: auto
