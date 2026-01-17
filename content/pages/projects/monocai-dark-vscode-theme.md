@@ -24,6 +24,6 @@ backgroundImage:
   backgroundSize: cover
   backgroundPosition: center
   backgroundRepeat: no-repeat
-  opacity: 100
+  opacity: 74
 ---
 My very first theme. After using something similar to this in IntelliJ and tweaking it to my liking over a number of years, I had a hard time adopting Cursor for my Java projects. So I had the bright idea to use Cursor to help me convert my IntelliJ theme! It got pretty close on the first try, and then I hand honed it while comparing Java and Go code side by side in IntelliJ vs Cursor. VS Code lacks all the tokens to make it match perfectly, but it's close enough for my satisfaction. And now I am sharing it with the world! It's mainly a selfish act so that I can install it on all of my computers simply by installing the extension 😜
