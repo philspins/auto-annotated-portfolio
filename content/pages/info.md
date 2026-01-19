@@ -232,7 +232,7 @@ sections:
       - type: Label
         label: NoSQL
       - type: Label
-        label: RESTful and GraphQL API design
+        label: API design
       - type: Label
         label: TDD
       - type: Label
