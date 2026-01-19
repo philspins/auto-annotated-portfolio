@@ -236,7 +236,7 @@ sections:
       - type: Label
         label: TDD
       - type: Label
-        label: Object Oriented Design
+        label: OOD
       - type: Label
         label: Design Patterns
       - type: Label
