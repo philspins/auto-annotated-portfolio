@@ -14,7 +14,7 @@ sections:
     colors: colors-f
     backgroundSize: full
     title: I’m a developer, maker, dreamer...
-    subtitle: a lifelong maker with a passion for learning and building
+    subtitle: a lifelong maker with a passion for learning and building cool shizz
     styles:
       self:
         height: auto
