@@ -226,7 +226,7 @@ sections:
     subtitle: 'Skills:'
     items:
       - type: Label
-        label: Architecting distributed systems using cloud technologies
+        label: Distributed Systems
       - type: Label
         label: Jenkins
       - type: Label
