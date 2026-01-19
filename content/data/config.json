@@ -85,7 +85,7 @@
         "contacts": {
             "type": "ContactBlock",
             "title": "Contact details",
-            "phoneNumber": "",
+            "phoneNumber": "1-555-noneofyabusiness",
             "phoneAltText": "My phone number",
             "email": "philly.craig@gmail.com",
             "emailAltText": "My email",
