@@ -278,12 +278,6 @@ sections:
           - pr-4
         borderWidth: 1
         borderStyle: solid
-  - type: TextSection
-    variant: variant-a
-    subtitle: 'Contact:'
-    colors: colors-f
-    text: |
-      [philly.craig@gmail.com](mailto:philly.craig@gmail.com)
   - type: DividerSection
     styles:
       self:
