@@ -62,7 +62,7 @@ sections:
   - type: ContactSection
     colors: colors-f
     backgroundSize: full
-    title: Wanna work on something fun with me? Hit me up! 😘
+    title: Wanna make something fun? Hit me up! 😘
     form:
       type: FormBlock
       elementId: contact-form
