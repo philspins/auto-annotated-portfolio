@@ -234,7 +234,7 @@ sections:
       - type: Label
         label: RESTful and GraphQL API design
       - type: Label
-        label: Test Driven Development (TDD)
+        label: TDD
       - type: Label
         label: Object Oriented Design
       - type: Label
