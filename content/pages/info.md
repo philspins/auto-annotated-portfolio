@@ -230,7 +230,7 @@ sections:
       - type: Label
         label: Jenkins
       - type: Label
-        label: Data modelling for SQL and NoSQL databases
+        label: NoSQL
       - type: Label
         label: RESTful and GraphQL API design
       - type: Label
