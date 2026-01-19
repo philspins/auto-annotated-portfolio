@@ -228,7 +228,7 @@ sections:
       - type: Label
         label: Architecting distributed systems using cloud technologies
       - type: Label
-        label: Implementing CI/CD using Jenkins, GitLab and cloud solutions
+        label: Jenkins
       - type: Label
         label: Data modelling for SQL and NoSQL databases
       - type: Label
