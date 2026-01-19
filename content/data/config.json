@@ -5,7 +5,7 @@
         "type": "Header",
         "headerVariant": "variant-c",
         "isSticky": false,
-        "title": "Personal",
+        "title": "HOME",
         "isTitleVisible": true,
         "primaryLinks": [
             {
@@ -66,7 +66,7 @@
             {
                 "type": "Link",
                 "label": "Contact",
-                "url": "mailto:thisismyemail.@myemail.me",
+                "url": "mailto:philly.craig@gmail.com",
                 "altText": ""
             },
             {
@@ -78,14 +78,14 @@
             {
                 "type": "Link",
                 "label": "GitHub",
-                "url": "https://github.com/netlify-templates",
-                "altText": "Netlify templates"
+                "url": "https://github.com/philspins",
+                "altText": "Phil's GitHub"
             }
         ],
         "contacts": {
             "type": "ContactBlock",
             "title": "Contact details",
-            "phoneNumber": "",
+            "phoneNumber": "1-555-noneofyabusiness",
             "phoneAltText": "My phone number",
             "email": "philly.craig@gmail.com",
             "emailAltText": "My email",
