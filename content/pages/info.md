@@ -332,4 +332,14 @@ sections:
           - pl-4
           - pr-4
         textAlign: left
+  - type: DividerSection
+    title: Divider
+    elementId: ''
+    styles:
+      self:
+        width: full
+        padding:
+          - pt-36
+          - pb-36
+        borderWidth: 1
 ---
