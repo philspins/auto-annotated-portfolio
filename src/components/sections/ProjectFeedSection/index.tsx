@@ -78,10 +78,10 @@ function ProjectGrid(props) {
             {projects.map((project, index) => (
                 <Link key={index} href={project} className="block max-w-3xl pb-10 border-b border-current group">
                     {showFeaturedImage && project.featuredImage && (
-                        <div className="w-full mb-6 overflow-hidden aspect-3/2">
+                        <div className="w-full mb-6 overflow-hidden">
                             <ImageBlock
                                 {...project.featuredImage}
-                                className="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105"
+                                className="object-cover w-full h-auto transition-transform duration-500 group-hover:scale-105"
                             />
                         </div>
                     )}
@@ -130,10 +130,10 @@ function ProjectList(props) {
                     <div className="flex flex-col gap-8 md:flex-row md:items-center">
                         {showFeaturedImage && project.featuredImage && (
                             <div className="md:shrink-0 md:self-stretch md:w-48">
-                                <div className="w-full overflow-hidden aspect-3/2 md:min-h-full">
+                                <div className="w-full overflow-hidden">
                                     <ImageBlock
                                         {...project.featuredImage}
-                                        className="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105"
+                                        className="object-cover w-full h-auto transition-transform duration-500 group-hover:scale-105"
                                     />
                                 </div>
                             </div>
