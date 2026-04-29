@@ -1,0 +1,106 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - banner [ref=e8]:
+      - generic [ref=e9]:
+        - link "Skip to main content" [ref=e10] [cursor=pointer]:
+          - /url: "#main"
+        - generic [ref=e11]:
+          - link "HOME" [ref=e13] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e14]: HOME
+          - list [ref=e15]:
+            - listitem [ref=e16]:
+              - link "Twitter" [ref=e18] [cursor=pointer]:
+                - /url: https://x.com/philviral
+                - generic [ref=e19]: Twitter
+                - img [ref=e20]
+            - listitem [ref=e22]:
+              - link "GitHub" [ref=e24] [cursor=pointer]:
+                - /url: https://github.com/philspins
+                - generic [ref=e25]: GitHub
+                - img [ref=e26]
+            - listitem [ref=e28]:
+              - link "Facebook" [ref=e30] [cursor=pointer]:
+                - /url: https://www.linkedin.com/in/philipjohnbasil/
+                - generic [ref=e31]: Facebook
+                - img [ref=e32]
+          - list [ref=e34]:
+            - listitem [ref=e35]:
+              - link "Info" [ref=e37] [cursor=pointer]:
+                - /url: /info/
+            - listitem [ref=e38]:
+              - link "PHILTECH" [ref=e40] [cursor=pointer]:
+                - /url: /philtech/
+            - listitem [ref=e41]:
+              - link "Projects" [ref=e43] [cursor=pointer]:
+                - /url: /projects/
+            - listitem [ref=e44]:
+              - link "Blog" [ref=e46] [cursor=pointer]:
+                - /url: /blog/
+    - main [ref=e48]:
+      - generic [ref=e53]:
+        - heading "I’m a developer, maker, dreamer..." [level=1] [ref=e55]
+        - paragraph [ref=e57]: a lifelong maker with a passion for learning and building cool stuff
+      - generic [ref=e60]:
+        - paragraph [ref=e61]: Projects
+        - generic [ref=e62]:
+          - link "OpenDocket project thumbnail OpenDocket A Canadian civic transparency platform that aggregates parliamentary and legislative data — bills, votes, MP profiles, and campaign donations — into a clean, searchable format." [ref=e64] [cursor=pointer]:
+            - /url: /projects/opendocket/
+            - img "OpenDocket project thumbnail" [ref=e67]
+            - heading "OpenDocket" [level=2] [ref=e68]
+            - paragraph [ref=e69]: A Canadian civic transparency platform that aggregates parliamentary and legislative data — bills, votes, MP profiles, and campaign donations — into a clean, searchable format.
+            - img [ref=e72]
+          - link "Project thumbnail image Monocai Dark Theme My very own theme for VS Code & Cursor" [ref=e75] [cursor=pointer]:
+            - /url: /projects/monocai/
+            - img "Project thumbnail image" [ref=e78]
+            - heading "Monocai Dark Theme" [level=2] [ref=e79]
+            - paragraph [ref=e80]: My very own theme for VS Code & Cursor
+            - img [ref=e83]
+        - link "See all projects" [ref=e87] [cursor=pointer]:
+          - /url: /projects/
+      - generic [ref=e92]:
+        - heading "Wanna make something fun? Hit me up! 😘" [level=2] [ref=e93]
+        - generic [ref=e95]:
+          - generic [ref=e96]:
+            - generic [ref=e98]:
+              - generic [ref=e99]: First Name
+              - textbox "First Name" [ref=e100]
+            - generic [ref=e102]:
+              - generic [ref=e103]: Last Name
+              - textbox "Last Name" [ref=e104]
+            - generic [ref=e106]:
+              - generic [ref=e107]: Email
+              - textbox "Email" [ref=e108]
+            - generic [ref=e110]:
+              - generic [ref=e111]: Phone Number
+              - textbox "Phone Number" [ref=e112]
+          - button "Submit 🚀" [ref=e114]
+    - contentinfo [ref=e117]:
+      - generic [ref=e119]:
+        - list [ref=e121]:
+          - listitem [ref=e122]:
+            - link "Info" [ref=e124] [cursor=pointer]:
+              - /url: /info/
+          - listitem [ref=e125]:
+            - link "Contact" [ref=e127] [cursor=pointer]:
+              - /url: mailto:philly.craig@gmail.com
+          - listitem [ref=e128]:
+            - link "Blog" [ref=e130] [cursor=pointer]:
+              - /url: /blog/
+          - listitem [ref=e131]:
+            - link "Phil's GitHub" [ref=e133] [cursor=pointer]:
+              - /url: https://github.com/philspins
+              - text: GitHub
+        - generic [ref=e134]:
+          - paragraph [ref=e135]:
+            - link "My email" [ref=e136] [cursor=pointer]:
+              - /url: mailto:philly.craig@gmail.com
+              - text: philly.craig@gmail.com
+          - paragraph [ref=e137]:
+            - link "My address" [ref=e138] [cursor=pointer]:
+              - /url: https://www.google.com/maps/search/London%2C%20Ontario%2C%20Canada
+              - text: London, Ontario, Canada
+        - paragraph [ref=e140]: © Phil Craig 2026
+  - button "Open Next.js Dev Tools" [ref=e146] [cursor=pointer]:
+    - img [ref=e147]
+  - alert [ref=e150]

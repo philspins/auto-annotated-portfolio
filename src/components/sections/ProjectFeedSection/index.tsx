@@ -76,7 +76,7 @@ function ProjectGrid(props) {
             })}
         >
             {projects.map((project, index) => (
-                <Link key={index} href={project} className="block max-w-3xl pb-10 border-b border-current group">
+                <Link key={index} href={project} className="flex flex-col h-full max-w-3xl pb-10 border-b border-current group">
                     {showFeaturedImage && project.featuredImage && (
                         <div className="w-full mb-6 overflow-hidden">
                             <ImageBlock
@@ -93,7 +93,7 @@ function ProjectGrid(props) {
                     <TitleTag className="text-3xl sm:text-4xl">{project.title}</TitleTag>
                     {showDescription && project.description && <p className="mt-5 text-lg">{project.description}</p>}
                     {showReadMoreLink && (
-                        <div className="mt-8">
+                        <div className="mt-auto pt-8">
                             <span className="inline-flex text-xl transition rounded-full p-4 border-2 border-current group-hover:bottom-shadow-6 group-hover:-translate-y-1.5">
                                 <ArrowUpRightIcon className="fill-current w-icon h-icon" />
                             </span>

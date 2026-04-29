@@ -14,7 +14,7 @@ sections:
     colors: colors-f
     backgroundSize: full
     title: I’m a developer, maker, dreamer...
-    subtitle: a lifelong maker with a passion for learning and building cool shizz
+    subtitle: a lifelong maker with a passion for learning and building cool stuff
     styles:
       self:
         height: auto
@@ -26,7 +26,7 @@ sections:
           - mr-0
         padding:
           - pt-36
-          - pb-48
+          - pb-4
           - pl-4
           - pr-4
         flexDirection: row-reverse
@@ -47,6 +47,7 @@ sections:
     showReadMoreLink: true
     variant: variant-b
     projects:
+      - content/pages/projects/opendocket.md
       - content/pages/projects/monocai.md
     styles:
       self:

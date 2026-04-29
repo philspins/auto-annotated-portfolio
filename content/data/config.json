@@ -90,9 +90,7 @@
         "contacts": {
             "type": "ContactBlock",
             "title": "Contact details",
-            "phoneNumber": "1-555-noneofyabusiness",
-            "phoneAltText": "My phone number",
-            "email": "philly.craig@gmail.com",
+"email": "philly.craig@gmail.com",
             "emailAltText": "My email",
             "address": "London, Ontario, Canada",
             "addressAltText": "My address"

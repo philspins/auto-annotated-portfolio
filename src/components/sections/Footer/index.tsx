@@ -14,7 +14,7 @@ export default function Footer(props) {
                     'max-w-8xl mx-auto': footerWidth === 'wide'
                 })}
             >
-                <div className="flex flex-col gap-x-12 gap-y-12 md:gap-y-32 md:flex-row md:flex-wrap md:justify-between">
+                <div className="flex flex-col gap-x-12 gap-y-12 md:gap-y-8 md:flex-row md:flex-wrap md:justify-between">
                     {primaryLinks.length > 0 && (
                         <div className={classNames(contacts ? 'w-full' : 'md:mr-auto')}>
                             <ul className="flex flex-wrap max-w-5xl text-lg gap-x-8 gap-y-2">
