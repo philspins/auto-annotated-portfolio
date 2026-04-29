@@ -1,6 +1,6 @@
 ---
 type: ProjectLayout
-title: Oracle Universal Content Management System Deployment
+title: The Vault — Oracle UCM at GDLS-C
 colors: colors-b
 backgroundImage:
   type: BackgroundImage
@@ -9,85 +9,67 @@ backgroundImage:
   backgroundPosition: center
   backgroundRepeat: no-repeat
   opacity: 74
-date: '2012-09-01'
+date: '2009-02-01'
 client: General Dynamics Land Systems - Canada
 description: >-
-  Technical lead for enterprise-wide deployment of Oracle CMS, including training over 800 employees on the new system and managing the implementation project.
+  Led Oracle UCM from initial proof of concept through full enterprise deployment, personally training 800+ employees on the system we branded internally as The Vault.
 featuredImage:
   type: ImageBlock
   url: /images/oracle-ucm.png
-  altText: Vault CMS Project
+  altText: The Vault — Oracle UCM at GDLS-C
 media:
   type: ImageBlock
   url: /images/oracle-ucm.png
-  altText: Vault CMS Project
+  altText: The Vault — Oracle UCM at GDLS-C
 ---
 
-## Project Overview
+This project spanned three years and two distinct phases: a proof of concept in 2009 to validate Oracle UCM for engineering workflows, followed by a full enterprise deployment in 2012 that rolled the system out to the entire 800+ person organization under the internal brand name **The Vault**.
 
-As technical lead for the Oracle UCM (now Oracle Webcenter Content) implementation at GDLS-C (which we branded internally as The Vault) I managed the deployment of an enterprise content management system to the entire employee population of 800+ users. This was a major organizational change initiative requiring technical expertise, project management, and extensive user training. I personally delivered classrom style training to the entire userbase.
+## Phase 1: Proof of Concept (2009)
 
-## Project Responsibilities
+Engineering change processes at GDLS-C required multiple reviews from various stakeholders, but the existing paper-based and email process was slow, error-prone, and lacked auditability. The Engineering Value Form (EVF) review process had accumulated years of friction:
 
-### Technical Leadership
-- System architecture and configuration decisions
-- Integration with existing enterprise systems
-- Security model and permissions structure
-- Migration strategy for legacy documents
+- Paper routing causing delays and lost forms
+- Email attachments creating version confusion
+- No visibility into review status
+- Missed reviews when stakeholders were unavailable
+- No audit trail for compliance
+- Manual tracking in spreadsheets
 
-### Training Program
-- Developed comprehensive training curriculum
-- Created user documentation and quick reference guides
-- **Personally trained over 800 employees** through multiple sessions
-- Established train-the-trainer program for ongoing support
+I built a proof of concept demonstrating how Oracle Universal Content Management could resolve these problems. Working with stakeholders, I documented the current-state workflow, defined reviewer roles and escalation procedures, and configured Oracle UCM end-to-end — content server setup, workflow routing rules, reviewer dashboards, and integration with engineering CAD systems and the parts database.
 
-### Change Management
-- Worked with stakeholders across all departments
-- Addressed concerns and resistance to change
-- Championed benefits of centralized content management
-- Provided post-deployment support
+The PoC demonstrated a **60% reduction in review cycle time**, elimination of lost documents, and a complete audit trail. Engineering managers appreciated the visibility, reviewers liked the centralized queue, and the compliance team valued the audit trail. The recommendation was to proceed with full implementation.
 
-## Technical Implementation
+## Phase 2: Enterprise Deployment (2012)
 
-### System Configuration
+Three years later, I served as technical lead for the full enterprise rollout. The system — branded internally as **The Vault** — was deployed to the entire employee population of 800+ users, making it one of the larger change initiatives the department had undertaken.
+
+### Technical Implementation
+
 - User authentication via Active Directory
-- Department-based folder structure
-- Version control and check-in/check-out workflows
+- Department-based folder structure with version control and check-in/check-out workflows
 - Metadata schema for document classification
-
-### Integration
-- Email integration for document collaboration
-- Desktop integration for drag-and-drop functionality
-- Search integration with enterprise search tools
+- Email and desktop integration for drag-and-drop functionality
 - Backup and disaster recovery procedures
 
-## Training Approach
+### Training Program
 
-Developed a multi-tiered training strategy:
-- **Basic Users**: Document upload, search, and retrieval
-- **Power Users**: Advanced features like workflows and metadata
-- **Administrators**: System configuration and maintenance
-- **Executives**: High-level overview and strategic benefits
+I personally delivered classroom-style training to all 800+ employees across multiple sessions, shifts, and locations. The curriculum was tiered by role:
 
-## Project Outcomes
+- **Basic Users** — document upload, search, and retrieval
+- **Power Users** — advanced workflows and metadata
+- **Administrators** — system configuration and maintenance
+- **Executives** — high-level overview and strategic benefits
 
-- **Successful enterprise deployment** to 800+ users
-- **High adoption rate** due to comprehensive training
-- **Improved document security** and version control
-- **Better collaboration** through centralized content repository
-- **Reduced time** spent searching for documents
+I also established a train-the-trainer program for ongoing support after go-live.
 
-## Challenges Overcome
+### Outcomes
 
-- User resistance to changing from network drives
-- Technical issues with legacy document formats
-- Performance optimization for large files
-- Training logistics across multiple shifts and locations
+- Successful enterprise deployment with high adoption
+- Improved document security and version control
+- Better collaboration through a centralized content repository
+- Reduced time spent searching for documents across siloed network drives
 
 ## Technologies Used
 
-- Vault Content Management System
-- Active Directory
-- Windows Server
-- SQL Server
-- Enterprise Search
+Oracle Universal Content Management (UCM) / Oracle WebCenter Content, Active Directory, Windows Server, SQL Server, LDAP, SMTP integration, enterprise search

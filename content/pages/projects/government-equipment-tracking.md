@@ -15,11 +15,11 @@ description: >-
   Database modifications enabling compliance with U.S. DoD MIL-STD-130 specification for tracking government-owned equipment through its entire lifecycle.
 featuredImage:
   type: ImageBlock
-  url: /images/bg1.jpg
+  url: /images/tracker.jpg
   altText: Equipment Tracking
 media:
   type: ImageBlock
-  url: /images/bg1.jpg
+  url: /images/tracker.jpg
   altText: Equipment Tracking
 ---
 
@@ -30,6 +30,7 @@ The U.S. Department of Defense MIL-STD-130 standard requires specific marking an
 ## MIL-STD-130 Requirements
 
 The standard mandates:
+
 - Unique identification (UID) marking for all government property
 - Linear and 2D barcode compatibility
 - Data format standards for equipment records
@@ -39,24 +40,28 @@ The standard mandates:
 ## Project Scope
 
 ### Database Schema Updates
+
 - Added required UID data fields
 - Implemented data validation rules per MIL-STD-130
 - Created lookup tables for standard codes
 - Ensured data format compliance
 
 ### Business Process Integration
+
 - Equipment receiving procedures
 - Barcode label generation
 - Inventory audit workflows
 - Disposal and transfer tracking
 
 ### Reporting Capabilities
+
 - Compliance reports for audits
 - Exception reports for items missing required data
 - Equipment status summaries
 - DoD registry submission files
 
 ### Label Generation
+
 - Integrated with label printing systems
 - Support for various barcode types (Code 39, Code 128, Data Matrix)
 - Template system for different equipment types
@@ -72,6 +77,7 @@ The standard mandates:
 ## Compliance Validation
 
 Worked closely with:
+
 - Quality Assurance team
 - Government contract administrators
 - DoD audit representatives
@@ -88,6 +94,7 @@ Worked closely with:
 ## Audit Results
 
 The system successfully passed:
+
 - Internal quality audits
 - Customer audits
 - DCMA (Defense Contract Management Agency) reviews
@@ -95,7 +102,7 @@ The system successfully passed:
 
 ## Technologies Used
 
-- Microsoft Access/SQL Server
+- Microsoft Access
 - Barcode generation libraries
 - Label printing systems
 - VBA for business logic

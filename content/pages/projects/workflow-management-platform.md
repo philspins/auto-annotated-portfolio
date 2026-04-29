@@ -9,7 +9,7 @@ backgroundImage:
   backgroundPosition: center
   backgroundRepeat: no-repeat
   opacity: 74
-date: '2016-01-01'
+date: '2012-07-01'
 client: General Dynamics Land Systems - Canada
 description: >-
   An extensible VB.NET platform that empowers business administrators with minimal coding experience to easily configure any defined process with custom forms and database connections, eliminating the need for manual spreadsheet tracking and email chains.
@@ -30,6 +30,7 @@ Organizations often manage business processes through email chains and Excel spr
 ## Key Innovation
 
 Unlike traditional workflow systems that require IT involvement for every new process, this platform features:
+
 - **Visual Process Designer**: Drag-and-drop interface for defining workflow steps
 - **Custom Form Builder**: Create data entry forms without coding
 - **Flexible Routing**: Configure approval chains and conditional logic
@@ -38,6 +39,7 @@ Unlike traditional workflow systems that require IT involvement for every new pr
 ## Technical Architecture
 
 Built on VB.NET with a focus on configurability and ease of use:
+
 - Desktop interface for end users
 - Administrative console for process configuration
 - Automated email notifications at each workflow stage
@@ -46,6 +48,7 @@ Built on VB.NET with a focus on configurability and ease of use:
 ## Business Impact
 
 The platform replaced dozens of email-and-spreadsheet processes across multiple departments:
+
 - **Engineering Change Requests**: Track and approve design changes
 - **Purchase Requisitions**: Streamline procurement approvals
 - **Document Reviews**: Manage multi-stakeholder review cycles

@@ -15,11 +15,11 @@ description: >-
   Customization of Deltek WelcomHome dashboard tool using ColdFusion and SQL to integrate data from Oracle and MS SQL Server databases, providing unified project management reports.
 featuredImage:
   type: ImageBlock
-  url: /images/bg2.jpg
+  url: /images/evm.png
   altText: PM Dashboard
 media:
   type: ImageBlock
-  url: /images/bg2.jpg
+  url: /images/evm.png
   altText: PM Dashboard
 ---
 
@@ -30,6 +30,7 @@ Project managers need visibility across multiple systems—financial, scheduling
 ## Business Challenge
 
 GDLS-C used multiple systems for project management:
+
 - **Oracle databases**: Financial and ERP data
 - **Deltek Open Plan**: Project scheduling and resource data
 - **Deltek Cobra**: For measuring costs and earned value management
@@ -40,7 +41,9 @@ Project managers spent hours manually gathering data from these systems to creat
 ## Solution Architecture
 
 ### Data Integration Layer
+
 Using ColdFusion, developed connectors to:
+
 - Query Oracle financial databases for budget and actuals
 - Extract schedule data from Open Plan
 - Collect cost and earned value data from Cobra
@@ -48,7 +51,9 @@ Using ColdFusion, developed connectors to:
 - Pull risk and issue data from tracking systems
 
 ### Dashboard Customization
+
 Created custom widgets and reports:
+
 - Project health scorecards
 - Budget vs. actual visualizations
 - Schedule variance analysis
@@ -56,6 +61,7 @@ Created custom widgets and reports:
 - Risk and issue summaries
 
 ### Real-Time Updates
+
 - Scheduled data refresh processes
 - On-demand refresh capabilities
 - Alert system for threshold violations
@@ -64,18 +70,21 @@ Created custom widgets and reports:
 ## Technical Implementation
 
 ### ColdFusion Components (CFCs)
+
 - Reusable data access components
 - Business logic layer for calculations
 - Caching for performance optimization
 - Error handling and logging
 
 ### SQL Development
+
 - Complex joins across Oracle and SQL Server
 - Performance optimization through views and stored procedures
 - Data transformation for consistent formatting
 - Aggregation queries for summary metrics
 
 ### User Interface
+
 - Customized Deltek WelcomHome portal layout
 - Role-based dashboards for different user types
 - Responsive design for various screen sizes
@@ -84,18 +93,21 @@ Created custom widgets and reports:
 ## Key Features
 
 ### Executive Dashboard
+
 - Portfolio overview across all projects
 - High-level health indicators
 - Critical issues and risks
 - Resource constraints
 
 ### Project Manager Dashboard
+
 - Detailed project metrics
 - Earned value management (EVM) data
 - Team resource status
 - Action item tracking
 
 ### Functional Manager Dashboard
+
 - Resource allocation across projects
 - Team capacity planning
 - Skills gap analysis
@@ -104,6 +116,7 @@ Created custom widgets and reports:
 ## Performance Optimization
 
 Addressed performance challenges through:
+
 - Query optimization and indexing
 - Caching frequently accessed data
 - Asynchronous data loading
@@ -120,6 +133,7 @@ Addressed performance challenges through:
 ## User Adoption
 
 Strong adoption driven by:
+
 - Significant time savings for project managers
 - Consistent, reliable data
 - Customizable views for different roles

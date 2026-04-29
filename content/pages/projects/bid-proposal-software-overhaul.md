@@ -9,17 +9,17 @@ backgroundImage:
   backgroundPosition: center
   backgroundRepeat: no-repeat
   opacity: 74
-date: '2008-03-01'
+date: '2007-03-01'
 client: General Dynamics Land Systems - Canada
 description: >-
   Coordinated comprehensive overhaul of bid and proposal software, addressing programming bugs and usability issues through extensive testing, user feedback sessions, and surveys.
 featuredImage:
   type: ImageBlock
-  url: /images/bg1.jpg
+  url: /images/bid_proposal.jpg
   altText: Software Overhaul
 media:
   type: ImageBlock
-  url: /images/bg1.jpg
+  url: /images/bid_proposal.jpg
   altText: Software Overhaul
 ---
 
@@ -30,6 +30,7 @@ The existing bid and proposal management software had accumulated numerous bugs 
 ## Initial Assessment
 
 The software suffered from:
+
 - Frequent crashes during critical proposal activities
 - Confusing user interface elements
 - Performance issues with large proposals
@@ -39,18 +40,21 @@ The software suffered from:
 ## Project Approach
 
 ### User Engagement
+
 - **Feedback sessions** with all user groups (writers, managers, pricing analysts)
 - **Surveys** to quantify pain points and prioritize issues
 - **Observation sessions** to identify undocumented problems
 - **Beta testing program** with representative users
 
 ### Testing Strategy
+
 - Comprehensive regression testing of all features
 - Load testing with realistic proposal sizes
 - User acceptance testing with actual users
 - Edge case and error condition testing
 
 ### Issue Management
+
 - Centralized bug tracking system
 - Prioritization based on user impact and frequency
 - Regular status updates to stakeholders
@@ -59,24 +63,28 @@ The software suffered from:
 ## Key Improvements
 
 ### Stability
+
 - Fixed critical bugs causing data loss
 - Improved error handling and recovery
 - Auto-save functionality to prevent data loss
 - Better memory management for large documents
 
 ### Usability
+
 - Redesigned confusing navigation elements
 - Added keyboard shortcuts for common tasks
 - Improved visual feedback for user actions
 - Simplified complex workflows
 
 ### Performance
+
 - Optimized database queries
 - Improved document loading times
 - Better response times for searches
 - Reduced server resource consumption
 
 ### Features
+
 - Enhanced collaboration capabilities
 - Better version control
 - Improved document generation
@@ -85,6 +93,7 @@ The software suffered from:
 ## Coordination Activities
 
 As project coordinator, managed:
+
 - **Stakeholder communications** across departments
 - **Developer team** implementing fixes
 - **Testing team** verification efforts
@@ -94,6 +103,7 @@ As project coordinator, managed:
 ## User Feedback Results
 
 Post-implementation surveys showed:
+
 - **85% satisfaction** vs. 30% before overhaul
 - **70% reduction** in reported issues
 - **Significant improvement** in perceived stability
@@ -110,6 +120,7 @@ Post-implementation surveys showed:
 ## Long-term Impact
 
 The overhaul resulted in:
+
 - **Reliable system** for time-critical proposal work
 - **Increased user productivity** through better usability
 - **Reduced IT support burden** due to fewer issues
@@ -130,4 +141,3 @@ The overhaul resulted in:
 - Bug tracking software
 - User survey tools
 - Testing frameworks
-- Version control systems

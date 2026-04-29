@@ -9,17 +9,17 @@ backgroundImage:
   backgroundPosition: center
   backgroundRepeat: no-repeat
   opacity: 74
-date: '2015-03-01'
+date: '2016-03-01'
 client: General Dynamics Land Systems - Canada
 description: >-
   A powerful tool utilizing C++, C# and VBA code to aggregate disparate parts data sources into a single source of truth, saving users hours of research time for every search performed.
 featuredImage:
   type: ImageBlock
-  url: /images/bg1.jpg
+  url: /images/consolidate.webp
   altText: Parts Data Tool
 media:
   type: ImageBlock
-  url: /images/bg1.jpg
+  url: /images/consolidate.webp
   altText: Parts Data Tool
 ---
 
@@ -30,7 +30,8 @@ In large organizations, parts data often exists across multiple systems—ERP da
 ## Technical Challenge
 
 Parts data was scattered across:
-- Multiple database systems (Oracle, SQL Server)
+
+- Oracle EBS
 - Legacy Access databases
 - Excel spreadsheets maintained by different departments
 - External government catalog
@@ -42,6 +43,7 @@ When I completed the POC for this projct people were shouting with joy: **"Phil 
 ## Solution Architecture
 
 The tool employs a multi-language architecture:
+
 - **C++ Components**: High-performance data retrieval from proprietary government catalog
 - **C# Middle Layer**: Data transformation and business logic
 - **VBA Interface**: User-friendly Excel-based front end familiar to end users

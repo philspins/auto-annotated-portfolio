@@ -15,11 +15,11 @@ description: >-
   Implementation and extensive customization of Selectica CLM for the Contracts Management department, requiring over 20,000 lines of code across XML, JavaScript, and Visual Basic.
 featuredImage:
   type: ImageBlock
-  url: /images/bg1.jpg
+  url: /images/contract-management.png
   altText: Contract Management System
 media:
   type: ImageBlock
-  url: /images/bg1.jpg
+  url: /images/contract-management.png
   altText: Contract Management System
 ---
 
@@ -30,6 +30,7 @@ Implementing an enterprise Contract Lifecycle Management (CLM) system is a major
 ## Project Scale
 
 This was one of the most code-intensive projects undertaken, with:
+
 - **20,000+ lines of custom code**
 - Multiple programming languages (XML, JavaScript, Visual Basic)
 - Integration with multiple backend systems
@@ -39,24 +40,28 @@ This was one of the most code-intensive projects undertaken, with:
 ## Key Customizations
 
 ### Document Generation
+
 - Automated contract document assembly
 - Dynamic clause insertion based on contract type
 - Template management system
 - Custom approval routing logic
 
 ### Integration Points
+
 - Financial systems for pricing and budgets
 - Legal database for clause libraries
 - CRM for customer information
 - Document management system
 
 ### Workflow Engine
+
 - Multi-stage approval processes
 - Conditional routing based on contract value and type
 - Automatic escalations for overdue approvals
 - Audit trail and compliance reporting
 
 ### User Interface
+
 - Custom forms for contract data entry
 - Search and reporting interfaces
 - Dashboard views for contract managers
@@ -64,6 +69,7 @@ This was one of the most code-intensive projects undertaken, with:
 
 ## Technical Challenges
 
+- **Automatic Clause Detection**: Determining which clauses are contained in a contract and showing users what the company's standard position is
 - **Performance Optimization**: Handling large documents and complex workflows
 - **Data Migration**: Moving legacy contract data into the new system
 - **Training**: Ensuring user adoption across departments
@@ -84,4 +90,3 @@ This was one of the most code-intensive projects undertaken, with:
 - JavaScript for client-side logic
 - Visual Basic for server-side customizations
 - SQL Server
-- Web Services (SOAP)

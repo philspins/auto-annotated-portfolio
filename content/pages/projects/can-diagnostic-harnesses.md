@@ -9,23 +9,23 @@ backgroundImage:
   backgroundPosition: center
   backgroundRepeat: no-repeat
   opacity: 74
-date: '2014-06-01'
+date: '2017-02-01'
 client: General Dynamics Land Systems - Canada
 description: >-
   Development of specialized hardware and software harnesses designed to interface with on-vehicle CAN networks for collecting diagnostic data and flashing new firmware to vehicle systems.
 featuredImage:
   type: ImageBlock
-  url: /images/bg2.jpg
+  url: /images/wiring-harness.webp
   altText: CAN Diagnostic Harnesses
 media:
   type: ImageBlock
-  url: /images/bg2.jpg
+  url: /images/wiring-harness.webp
   altText: CAN Diagnostic Harnesses
 ---
 
 ## Project Overview
 
-Developed a suite of specialized diagnostic harnesses that enable direct communication with vehicle Controller Area Network (CAN) systems. These tools are critical for field maintenance, troubleshooting, and firmware updates on military vehicles.
+Developed a suite of specialized diagnostic harnesses that enable direct communication with vehicle Controller Area Network (CAN) systems. These tools are critical for field maintenance, troubleshooting, and firmware updates on military vehicles. The purpose of this particular harness was to be able to connect up to 6 devices at once, to reduce the time needed when flashing new firnmware.
 
 ## Technical Implementation
 
@@ -41,6 +41,7 @@ The harnesses combine custom hardware interfaces with sophisticated software pro
 ## Applications
 
 These harnesses are used by field service technicians for:
+
 - Routine vehicle diagnostics
 - Pre-deployment system checks
 - Firmware updates and patches
@@ -48,7 +49,4 @@ These harnesses are used by field service technicians for:
 
 ## Technologies Used
 
-- CAN Bus Protocol
-- C# for software interfaces
-- Custom hardware design
-- J1939 Protocol
+- CAD hardware design

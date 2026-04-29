@@ -9,17 +9,17 @@ backgroundImage:
   backgroundPosition: center
   backgroundRepeat: no-repeat
   opacity: 74
-date: '2013-11-01'
+date: '2017-09-01'
 client: General Dynamics Land Systems - Canada
 description: >-
   A C# DLL that enables developers to communicate with RP1210 compliant devices without worrying about which specific adapter the end user has connected, solving the Nexiq 1 vs Nexiq 2 compatibility problem.
 featuredImage:
   type: ImageBlock
-  url: /images/bg1.jpg
+  url: /images/packet.png
   altText: RP1210 DLL Project
 media:
   type: ImageBlock
-  url: /images/bg1.jpg
+  url: /images/packet.png
   altText: RP1210 DLL Project
 ---
 
