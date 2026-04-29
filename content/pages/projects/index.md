@@ -83,11 +83,6 @@ bottomSections:
           isRequired: true
           width: full
           type: TextareaFormControl
-        - name: updatesConsent
-          label: Sign me up to recieve my words
-          isRequired: false
-          width: full
-          type: CheckboxFormControl
       submitLabel: Submit 🚀
       styles:
         self:

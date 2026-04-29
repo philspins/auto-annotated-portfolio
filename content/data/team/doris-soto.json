@@ -1,10 +1,12 @@
 {
     "type": "Person",
-    "firstName": "Doris",
-    "lastName": "Soto",
+    "firstName": "Phil",
+    "lastName": "Craig",
     "image": {
         "type": "ImageBlock",
-        "url": "/images/about.jpg",
-        "altText": "Doris Soto photo"
+        "url": "/images/phil_eiffel_tower.jpg",
+        "altText": "altText of the image",
+        "caption": "Caption of the image",
+        "elementId": ""
     }
 }

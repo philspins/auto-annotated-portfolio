@@ -15,9 +15,8 @@ sections:
     colors: colors-f
     backgroundSize: full
     text: >
-      # Hi, my name is Phil! I’m a developer. Some people call me an SWE.  I
-      grew up in the 80s & 90s using a TI-99 and playing NES. 
-
+      # Hi, my name is Phil! I’m a developer. Some people call me a Software Engineer.  I
+      grew up in the 80s & 90s playing with a 386 and an NES.
 
       I knew from a very young age that I wanted to be a programmer. Before
       going to college I had grandiose visions of becoming a game developer. In
@@ -62,25 +61,15 @@ sections:
       contractor working as a Systems Analyst in the Project Management Systems
       department. During my time at GDLS-C I created innovative software
       solutions to address the unique challenges they had, such as: <br />
-
        - Managing projects and calculating earned value <br />
-
        - Developing bids against government contracts <br />
-
        - Automating contract management <br />
-
        - Custom workflow tools <br />
-       
        - Inventory management <br />
-       
        - Headcount planning and time tracking <br />
-       
        - Vehicle test kits <br />
-       
        - Content and Knowledge Management systems <br />
-       
        - Planning of efficient packaging for spare parts <br />
-       
        - Integration with Oracle E-Business
   - elementId: ''
     type: TextSection
@@ -98,15 +87,10 @@ sections:
       for new positions again. <br /><br /> My hunt for a developer title landed
       me at GoodLife Fitness - on paper, an unlikely candidate, but they fit
       many of my criteria: <br />
-       
        - they were a well established local company <br />
-       
        - they had a dedicated department to software development <br />
-       
        - they had an office with many amenities <br />
-       
        - the business outlook was promising with seemingly no limitations (in a world with an obesity epidemic it seemed to me they had a license to print money) <br />
-       
        - a lively culture and a team filled with individuals who I really enjoyed interviewing with
   - elementId: ''
     type: TextSection
@@ -115,9 +99,10 @@ sections:
     title: the carfax years
     text: >
       I had a great time working at GoodLife, my first year there was a
-      wirlwhind of learning new technologies (such as building in "the cloud"),
-      making new friends (who I still have to this day), and testing the limits
-      of my abilities. We built APIs in C# which were hosted in Azure, built
+      wirlwhind of learning new technologies (such as building in this new thing 
+      called "the cloud"), making new friends (who I still have to this day), 
+      and testing the limits of my abilities. We built APIs in C# which were 
+      hosted in Azure, built
       data pipelines using SSIS, and managed a complex data store which
       supported the commissions and compensation program for their sales team.
       After the first year some of the culture flaws begaun coming to light and
@@ -127,7 +112,9 @@ sections:
       cut coming to GoodLife, with the hope that it would provide greater
       long-term happiness, and that happiness was proving to be short lived. One
       of my new developer friends recruited me to the next company - Carfax. <br
-      /><br /> London had a local company called Carproof, which was like the
+      /><br />
+
+      London had a local company called Carproof, which was like the
       Canadian version of Carfax at the time. Somewhere around 2015, it was
       acquired by Carfax and branded as Carfax Canada. The previous company had
       a team of developers who worked on the Canada product, and when Carfax saw
@@ -228,17 +215,13 @@ sections:
       - type: Label
         label: Distributed Systems
       - type: Label
-        label: Jenkins
+        label: CI/CD
       - type: Label
         label: NoSQL
       - type: Label
         label: API design
       - type: Label
         label: TDD
-      - type: Label
-        label: OOD
-      - type: Label
-        label: Design Patterns
       - type: Label
         label: AWS
       - type: Label
@@ -260,11 +243,7 @@ sections:
       - type: Label
         label: SQL
       - type: Label
-        label: Go
-      - type: Label
         label: Kubernetes
-      - type: Label
-        label: ArgoCD
       - type: Label
         label: Terraform
   - type: DividerSection
@@ -298,7 +277,7 @@ sections:
 
           **2006-2017**
 
-          * Software Developer / Systems Analyst @ GDLS-C
+          * Software Developer & Systems Analyst @ GDLS-C
 
           **2005-2006**
 
@@ -332,16 +311,4 @@ sections:
           - pl-4
           - pr-4
         textAlign: left
-  - type: DividerSection
-    title: Divider
-    elementId: ''
-    styles:
-      self:
-        width: wide
-        padding:
-          - pt-36
-          - pb-36
-          - pl-4
-          - pr-4
-        borderWidth: 1
 ---
